@@ -16,7 +16,7 @@ app.use(express.json());
 // routes 
 app.use("/api/users", require("./routes/users.routes"));
 
-app.get('https://api-marco.herokuapp.com/', (req, res) => {
+app.get('/', (req, res) => {
     res.send("hola");
 });
 
