@@ -16,8 +16,4 @@ app.use(express.json());
 // routes 
 app.use("/api/users", require("./routes/users.routes"));
 
-app.get('/', (req, res) => {
-    res.send("hola");
-});
-
 module.exports = app;
