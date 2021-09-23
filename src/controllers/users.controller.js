@@ -9,9 +9,8 @@ userCtrl.getUsers = async (req, res) => {
 };
 
 userCtrl.createUser = async (req, res) => {
-    const { username, password } = req.body
-    const newUser = new User ({username, password});
-    newUser.password = await newUser.encryptPassword(password);
+    const newUser = new User (req.body);
+    newUser.password = await newUser.encryptPassword(req.body.password);
     await newUser.save()
     res.json("user created");
 };
