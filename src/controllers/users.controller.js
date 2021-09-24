@@ -29,7 +29,7 @@ userCtrl.loginUser = async (req, res) => {
     const user = await User.findOne({email: req.body.email});
 
     if (user){
-        const match = await user.matchPassword(password);
+        const match = await user.matchPassword(req.body.password);
         if (match){
             const token = jwt.sign({email: req.body.email}, "SECRET")
             if (token){
