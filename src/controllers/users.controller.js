@@ -9,10 +9,16 @@ userCtrl.getUsers = async (req, res) => {
 };
 
 userCtrl.createUser = async (req, res) => {
-    const newUser = new User (req.body);
-    newUser.password = await newUser.encryptPassword(req.body.password);
-    await newUser.save()
-    res.json("user created");
+    const emailUser = await User.findOne({ email: req.body.email });
+    if(emailUser){
+        res.json("email already taken")
+    }
+    else{
+        const newUser = new User (req.body);
+        newUser.password = await newUser.encryptPassword(req.body.password);
+        await newUser.save()
+        res.json("user created");
+    }
 };
 
 userCtrl.updateUser = async (req, res) => {
