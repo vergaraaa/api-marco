@@ -26,13 +26,12 @@ userCtrl.deleteUser = async (req, res) => {
 };
 
 userCtrl.loginUser = async (req, res) => {
-    const { username, password } = req.body;
-    const user = await User.findOne({username: username}); // cambiar por email
+    const user = await User.findOne({email: req.body.email});
 
     if (user){
         const match = await user.matchPassword(password);
         if (match){
-            const token = jwt.sign({username: username}, "SECRET")
+            const token = jwt.sign({email: req.body.email}, "SECRET")
             if (token){
                 res.json({token: token})
             } else {
