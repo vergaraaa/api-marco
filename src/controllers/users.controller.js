@@ -22,6 +22,9 @@ userCtrl.createUser = async (req, res) => {
 };
 
 userCtrl.updateUser = async (req, res) => {
+    // encrpyt password
+    const user = await User.findById(req.params.id);
+    req.body.password = await user.encryptPassword(req.body.password);
     await User.findByIdAndUpdate(req.params.id, req.body);
     res.json("user updated");
 };
@@ -32,14 +35,14 @@ userCtrl.deleteUser = async (req, res) => {
 };
 
 userCtrl.loginUser = async (req, res) => {
-    const user = await User.findOne({email: req.body.email});
+    const user = await User.findOne({ email: req.body.email });
 
-    if (user){
+    if(user){
         const match = await user.matchPassword(req.body.password);
         if (match){
             const token = jwt.sign({email: req.body.email}, "SECRET")
             if (token){
-                res.json({token: token})
+                res.json({ token: token })
             } else {
                 res.json({message: "Authentication Failed", success: false})
             }
