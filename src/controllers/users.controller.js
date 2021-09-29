@@ -22,7 +22,6 @@ userCtrl.createUser = async (req, res) => {
 };
 
 userCtrl.updateUser = async (req, res) => {
-    // encrpyt password
     const user = await User.findById(req.params.id);
     req.body.password = await user.encryptPassword(req.body.password);
     await User.findByIdAndUpdate(req.params.id, req.body);
@@ -42,17 +41,17 @@ userCtrl.loginUser = async (req, res) => {
         if (match){
             const token = jwt.sign({email: req.body.email}, "SECRET")
             if (token){
-                res.json({ token: token })
+                res.json({ token: token, usertype: user.usertype, success: true })
             } else {
-                res.json({message: "Authentication Failed", success: false})
+                res.json({message: "Authentication Failed.", success: false})
             }
         }
         else{
-            res.json({message: "Authentication Failed", success: false})
+            res.json({message: "Incorrect password.", success: false})
         }
     }
     else {
-        res.json({message: "Authentication Failed", success: false})
+        res.json({message: "Email does not exist.", success: false})
     }
 }
 
