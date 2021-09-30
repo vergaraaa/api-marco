@@ -10,3 +10,5 @@ router.route('/')
 router.route('/:id')
     .put(updateExpo)
     .delete(deleteExpo)
+
+module.exports = router;
