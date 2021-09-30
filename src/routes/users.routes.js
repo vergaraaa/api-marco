@@ -1,17 +1,17 @@
-const { Router } = require("express");
+const { Router } = require('express');
 const router = Router();
 
-const { getUsers, createUser, updateUser, deleteUser, loginUser } = require("../controllers/users.controller");
+const { getUsers, createUser, updateUser, deleteUser, loginUser } = require('../controllers/users.controller');
 
-router.route("/")
+router.route('/')
     .get(getUsers)
     .post(createUser)
 
-router.route("/:id")
+router.route('/:id')
     .put(updateUser)
     .delete(deleteUser)
 
-router.route("/login")
+router.route('/login')
     .post(loginUser)
 
 

@@ -1,39 +1,39 @@
-const userCtrl = {  };
+const usersCtrl = {  };
 
-const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const jwt = require('jsonwebtoken');
+const User = require('../models/User');
 
-userCtrl.getUsers = async (req, res) => {
+usersCtrl.getUsers = async (req, res) => {
     const users = await User.find();
     res.json(users);
 };
 
-userCtrl.createUser = async (req, res) => {
+usersCtrl.createUser = async (req, res) => {
     const emailUser = await User.findOne({ email: req.body.email });
     if(emailUser){
-        res.json("email already taken")
+        res.json('email already taken')
     }
     else{
         const newUser = new User (req.body);
         newUser.password = await newUser.encryptPassword(req.body.password);
         await newUser.save()
-        res.json("user created");
+        res.json('user created');
     }
 };
 
-userCtrl.updateUser = async (req, res) => {
+usersCtrl.updateUser = async (req, res) => {
     const user = await User.findById(req.params.id);
     req.body.password = await user.encryptPassword(req.body.password);
     await User.findByIdAndUpdate(req.params.id, req.body);
     res.json("user updated");
 };
 
-userCtrl.deleteUser = async (req, res) => {
+usersCtrl.deleteUser = async (req, res) => {
     await User.findByIdAndDelete(req.params.id);
     res.json("user deleted");
 };
 
-userCtrl.loginUser = async (req, res) => {
+usersCtrl.loginUser = async (req, res) => {
     const user = await User.findOne({ email: req.body.email });
 
     if(user){
@@ -60,4 +60,4 @@ userCtrl.loginUser = async (req, res) => {
     }
 }
 
-module.exports = userCtrl;
+module.exports = usersCtrl;
