@@ -13,6 +13,11 @@ exposCtrl.createExpo = async (req, res) => {
     res.json('expo created');
 };
 
+exposCtrl.getExpo = async(req, res) => {
+    const expo = await Expo.findById(req.params.id);
+    res.json(expo);
+}
+
 exposCtrl.updateExpo = async (req, res) => {
     await Expo.findByIdAndUpdate(req.params.id, req.body);
     res.json('expo updated');

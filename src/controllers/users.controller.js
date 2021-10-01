@@ -21,6 +21,11 @@ usersCtrl.createUser = async (req, res) => {
     }
 };
 
+usersCtrl.getUser = async(req, res) => {
+    const user = await User.findById(req.params.id);
+    res.json(user);
+}
+
 usersCtrl.updateUser = async (req, res) => {
     const user = await User.findById(req.params.id);
     req.body.password = await user.encryptPassword(req.body.password);
