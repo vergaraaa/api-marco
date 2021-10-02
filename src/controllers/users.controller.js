@@ -60,4 +60,31 @@ usersCtrl.loginUser = async (req, res) => {
     }
 }
 
+usersCtrl.loginAdmin = async (req, res) => {
+    const user = await User.findOne({ email: req.body.email });
+
+    if(user){
+        if(user.usertype.includes("admin") || user.usertype.includes("colaborator")){
+            const match = await user.matchPassword(req.body.password);
+            if (match){
+                const token = jwt.sign({email: req.body.email}, "SECRET")
+                if (token){
+                    res.json({ message: "token", token: token, usertype: user.usertype, success: true })
+                } else {
+                    res.json({message: "Authentication Failed.", success: false})
+                }
+            }
+            else{
+                res.json({message: "Incorrect password.", success: false});
+            }
+        }
+        else{
+            res.json({message: "You don't have permission to login.", success: false});
+        }
+    }
+    else {
+        res.json({message: "Email does not exist.", success: false});
+    }
+}
+
 module.exports = usersCtrl;
