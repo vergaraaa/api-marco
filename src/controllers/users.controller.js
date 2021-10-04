@@ -11,13 +11,13 @@ usersCtrl.getUsers = async (req, res) => {
 usersCtrl.createUser = async (req, res) => {
     const emailUser = await User.findOne({ email: req.body.email });
     if(emailUser){
-        res.json('email already taken')
+        res.json({ message: 'Email already taken', success: true })
     }
     else{
         const newUser = new User (req.body);
         newUser.password = await newUser.encryptPassword(req.body.password);
         await newUser.save()
-        res.json('user created');
+        res.json({ message: 'User created', success: true });
     }
 };
 
@@ -27,6 +27,7 @@ usersCtrl.getUser = async(req, res) => {
 }
 
 usersCtrl.updateUser = async (req, res) => {
+    // checar si el usuario por el que quiere cambiar está ocupado
     const user = await User.findById(req.params.id);
     req.body.password = await user.encryptPassword(req.body.password);
     await User.findByIdAndUpdate(req.params.id, req.body);
