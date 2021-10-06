@@ -9,9 +9,9 @@ usersCtrl.getUsers = async (req, res) => {
 };
 
 usersCtrl.createUser = async (req, res) => {
-    const emailUser = await User.findOne({ email: req.body.email });
-    if(emailUser){
-        res.json({ message: 'Email already taken', success: true })
+    const email = await User.findOne({ email: req.body.email });
+    if(email){
+        res.json({ message: 'Email already taken', success: false })
     }
     else{
         const newUser = new User (req.body);
