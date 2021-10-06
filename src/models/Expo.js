@@ -13,7 +13,7 @@ const Expo = new Schema ({
     curatorship: { type: String, required: true },
     museography: { type: String, required: true },
     location: { type: String, required: true },
-    techique: { type: String, required: true },
+    technique: { type: String, required: true },
     totalPieces: { type: String, required: true }
 }, {
     timestamps: true
