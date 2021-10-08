@@ -1,3 +1,6 @@
+const { dirname } = require("path");
+const path = require("path");
+
 const exposCtrl = { };
 
 const Expo = require('../models/Expo');
@@ -10,11 +13,13 @@ exposCtrl.getExpos = async(req, res) => {
 exposCtrl.createExpo = async (req, res) => {
     const images = [];
     req.files.forEach(file => {
-        images.push("localhost:3000/" + file.filename);
+        // images.push("localhost:3000/" + file.filename);
+        images.push("https://api-marco.herokuapp.com/" + file.filename);
     });
     req.body.images = images;
     const newExpo = new Expo(req.body);
     await newExpo.save();
+    console.log(newExpo);
     res.json(newExpo);
 };
 
