@@ -8,9 +8,14 @@ exposCtrl.getExpos = async(req, res) => {
 };
 
 exposCtrl.createExpo = async (req, res) => {
+    const images = [];
+    req.files.forEach(file => {
+        images.push("localhost:3000/" + file.filename);
+    });
+    req.body.images = images;
     const newExpo = new Expo(req.body);
     await newExpo.save();
-    res.json('expo created');
+    res.json(newExpo);
 };
 
 exposCtrl.getExpo = async(req, res) => {
