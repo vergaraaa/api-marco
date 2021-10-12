@@ -16,11 +16,12 @@ require('./database.js');
 app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
-app.use(express.static("src/public"));
+app.use(express.static(path.join(__dirname, "public")));
+// app.use("/uploads/", express.static(path.join(__dirname, "public")));
 
 // multer
 const storage = multer.diskStorage({
-    destination: path.join(__dirname, "/public"),
+    destination: path.join(__dirname, "public/uploads"),
     filename: (req, file, cb) => {
         cb(null, uuid() + path.extname(file.originalname).toLocaleLowerCase());
     }
@@ -28,8 +29,8 @@ const storage = multer.diskStorage({
 
 app.use(multer({
     storage: storage,
-    dest: path.join(__dirname, "/public"),
-    limits: {fileSize: 1000000},
+    dest: path.join(__dirname, "/public/uploads"),
+    limits: {fileSize: 3000000},
     fileFilter: (req, file, cb) => {
         const filetypes = /jpeg|jpg|png|gif/;
         const mimetype = filetypes.test(file.mimetype);
