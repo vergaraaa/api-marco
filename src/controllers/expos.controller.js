@@ -1,5 +1,4 @@
-const { dirname } = require("path");
-const path = require("path");
+const fs = require("fs");
 
 const exposCtrl = { };
 
@@ -13,8 +12,8 @@ exposCtrl.getExpos = async(req, res) => {
 exposCtrl.createExpo = async (req, res) => {
     const images = [];
     req.files.forEach(file => {
-        // images.push("localhost:3000/" + file.filename);
-        images.push("https://api-marco.herokuapp.com/" + file.filename);
+        images.push("localhost:3000/" + file.filename);
+        // images.push("https://api-marco.herokuapp.com/" + file.filename);
     });
     req.body.images = images;
     const newExpo = new Expo(req.body);
@@ -34,7 +33,13 @@ exposCtrl.updateExpo = async (req, res) => {
 }
 
 exposCtrl.deleteExpo = async (req, res) => {
-    await Expo.findByIdAndDelete(req.params.id);
+    const expo = await Expo.findByIdAndDelete(req.params.id);
+    expo.images.forEach(image => {
+        fs.unlink(image, (err) => {
+            if (err) throw err;
+            console.log('path/file.txt was deleted');
+        })
+    });
     res.json("expo deleted");
 };
 
