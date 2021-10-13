@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 
 // settings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 10021);
 
 // database
 require('./database.js');
