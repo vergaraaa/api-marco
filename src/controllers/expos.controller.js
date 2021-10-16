@@ -12,11 +12,12 @@ exposCtrl.getExpos = async(req, res) => {
 exposCtrl.createExpo = async (req, res) => {
     const images = [];
     req.files.forEach(file => {
-        images.push("http://localhost:3000/uploads/" + file.filename);
+        images.push("http://100.24.228.237:10021/uploads" + file.filename);
+        // images.push("http://localhost:3000/uploads/" + file.filename);
         // images.push("https://api-marco.herokuapp.com/" + file.filename);
     });
     req.body.images = images;
-    const newExpo = new Expo(req.body);
+    const newExpo = await new Expo(req.body);
     await newExpo.save();
     res.json(newExpo);
 };
@@ -48,7 +49,9 @@ exposCtrl.updateExpo = async (req, res) => {
         if(req.body.coverImage === expo.images[0]){
             imagesToKeep.push(req.body.coverImage);
             req.files.forEach(file => {
-                imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
+                imagesToKeep.push("http://100.24.228.237:10021/uploads" + file.filename);
+                imagesToKeep.push("http://172.31.0.24:10021/uploads/" + file.filename);
+                // imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
                 // images.push("https://api-marco.herokuapp.com/" + file.filename);
             });
             imagesToDelete.shift();
@@ -58,7 +61,9 @@ exposCtrl.updateExpo = async (req, res) => {
         else if(req.body.otherImages){
             // console.log(req.body.otherImages);
             req.files.forEach(file => {
-                imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
+                imagesToKeep.push("http://100.24.228.237:10021/uploads" + file.filename);
+                // imagesToKeep.push("http://172.31.0.24:10021/uploads/" + file.filename);
+                // imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
                 // images.push("https://api-marco.herokuapp.com/" + file.filename);
             });
             req.body.otherImages.forEach(image => {
@@ -72,7 +77,9 @@ exposCtrl.updateExpo = async (req, res) => {
         // Si todo cambia
         else if(!req.body.coverImage && !req.body.otherImages){
             req.files.forEach(file => {
-                imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
+                imagesToKeep.push("http://100.24.228.237:10021/uploads" + file.filename);
+                // imagesToKeep.push("http://172.31.0.24:10021/uploads/" + file.filename);
+                // imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
                 // images.push("https://api-marco.herokuapp.com/" + file.filename);
             });
             deleteImages(imagesToDelete);

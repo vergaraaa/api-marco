@@ -14,7 +14,7 @@ usersCtrl.createUser = async (req, res) => {
         res.json({ message: 'Email already taken', success: false })
     }
     else{
-        const newUser = new User (req.body);
+        const newUser = new User(req.body);
         newUser.password = await newUser.encryptPassword(req.body.password);
         await newUser.save()
         res.json({ message: 'User created', success: true });
@@ -65,12 +65,12 @@ usersCtrl.loginAdmin = async (req, res) => {
     const user = await User.findOne({ email: req.body.email });
 
     if(user){
-        if(user.usertype.includes("admin") || user.usertype.includes("colaborator")){
+        if(user.usertype.includes("admin") || user.usertype.includes("collaborator")){
             const match = await user.matchPassword(req.body.password);
             if (match){
                 const token = jwt.sign({email: req.body.email}, "SECRET")
                 if (token){
-                    res.json({ message: "token", token: token, usertype: user.usertype, success: true })
+                    res.json({ message: "token", token: token, user: user, success: true })
                 } else {
                     res.json({message: "Authentication Failed.", success: false})
                 }

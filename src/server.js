@@ -17,7 +17,6 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
-// app.use("/uploads/", express.static(path.join(__dirname, "public")));
 
 // multer
 const storage = multer.diskStorage({
@@ -44,5 +43,7 @@ app.use(multer({
 // routes 
 app.use("/api/users", require("./routes/users.routes"));
 app.use("/api/expos", require("./routes/expos.routes"));
+app.use("/api/collaborators", require("./routes/collaborators.routes"));
+app.use("/api/activities", require("./routes/activities.routes"));
 
 module.exports = app;
