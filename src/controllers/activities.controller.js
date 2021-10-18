@@ -36,26 +36,22 @@ function deleteImage(image){
 }
 
 activitiesCtrl.updateActivity = async (req, res) => {
-    console.log(req);
     var img = "";
     const activity = await Activity.findById(req.params.id);
-    // Si la imagen no es la misma
-    if(req.files || req.body.coverImage === activity.image){
-        if(req.files){
-            req.files.forEach(file => {
-                img = "http://100.24.228.237:10021/uploads/" + file.filename;
-            });
-            deleteImage(activity.image);
-        }
-        // Si la imagen es la misma
-        else if(req.body.coverImage === activity.image){
-            img = activity.image;
-        }
-        req.body.image = img;
+    // Si la imagen es la misma
+    if(req.body.coverImage === activity.image){
+        img = req.body.coverImage;
     }
+    // Si la imagen no es la misma
+    else{
+        req.files.forEach(file => {
+            img = "http://100.24.228.237:10021/uploads/" + file.filename;
+        });
+        deleteImage(activity.image);
+    }
+    req.body.image = img;
     await Activity.findByIdAndUpdate(req.params.id, req.body);
-    const temp = await Activity.findById(req.params.id);
-    res.json(temp);
+    res.json("activity updated");
 }
 
 activitiesCtrl.deleteActivity = async (req, res) => {

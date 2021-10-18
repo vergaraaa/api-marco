@@ -10,6 +10,7 @@ const Expo = new Schema ({
     virtualTourURL: { type: String, required: true },
     authorCapsuleURL: { type: String },
     images: [{ type: String }],
+    audio: { type: String, required: true },
     curatorship: { type: String, required: true },
     museography: { type: String, required: true },
     location: { type: String, required: true },

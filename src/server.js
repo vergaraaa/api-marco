@@ -7,7 +7,7 @@ const path = require('path')
 const app = express();
 
 // settings
-app.set('port', process.env.PORT || 10021);
+app.set('port', 10021 || process.env.PORT);
 
 // database
 require('./database.js');
@@ -29,14 +29,18 @@ const storage = multer.diskStorage({
 app.use(multer({
     storage: storage,
     dest: path.join(__dirname, "/public/uploads"),
-    limits: {fileSize: 3000000},
+    limits: {fileSize: 10000000},
     fileFilter: (req, file, cb) => {
-        const filetypes = /jpeg|jpg|png|gif/;
-        const mimetype = filetypes.test(file.mimetype);
-        const extname = filetypes.test(path.extname(file.originalname));
-        if(mimetype && extname)
+        // const filetypes = /jpeg|jpg|png|gif/;
+        // const mimetype = filetypes.test(file.mimetype);
+        // console.log(file);
+        // const extname = filetypes.test(path.extname(file.originalname));
+        // if(mimetype && extname)
+        //     return cb(null, true);
+        // cb("error: file must be a valid image");
+        if((file.mimetype === 'audio/mpeg' || file.mimetype === 'image/jpeg' || file.mimetype === 'image/png' || file.mimetype === 'image/jpg'))
             return cb(null, true);
-        cb("error: file must be a valid image");
+        cb("error: file must be a valid image or video");
     }
 }).array("files", 12));
 
@@ -45,5 +49,6 @@ app.use("/api/users", require("./routes/users.routes"));
 app.use("/api/expos", require("./routes/expos.routes"));
 app.use("/api/collaborators", require("./routes/collaborators.routes"));
 app.use("/api/activities", require("./routes/activities.routes"));
+app.use("/api/guides", require("./routes/guides.routes"));
 
 module.exports = app;
