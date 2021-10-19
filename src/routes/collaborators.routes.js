@@ -4,7 +4,7 @@ const router = Router();
 const { getCollaborators } = require('../controllers/collaborators.controller');
 
 router.route('/')
-    .get(getCollaborators)
+    .get(getCollaborators);
 
 
     module.exports = router;

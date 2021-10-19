@@ -5,10 +5,10 @@ const { getGuides, createGuide, updateGuide, deleteGuide } = require('../control
 
 router.route('/')
     .get(getGuides)
-    .post(createGuide)
+    .post(createGuide);
 
 router.route('/:id')
     .put(updateGuide)
-    .delete(deleteGuide)
+    .delete(deleteGuide);
 
 module.exports = router;

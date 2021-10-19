@@ -8,6 +8,16 @@ usersCtrl.getUsers = async (req, res) => {
     res.json(users);
 };
 
+usersCtrl.getUser = async(req, res) => {
+    const user = await User.findById(req.params.id);
+    res.json(user);
+}
+
+usersCtrl.getUserName = async(req, res) => {
+    const user = await User.findById(req.params.id);
+    res.json({name: user.name});
+}
+
 usersCtrl.createUser = async (req, res) => {
     const email = await User.findOne({ email: req.body.email });
     if(email){
@@ -21,10 +31,6 @@ usersCtrl.createUser = async (req, res) => {
     }
 };
 
-usersCtrl.getUser = async(req, res) => {
-    const user = await User.findById(req.params.id);
-    res.json(user);
-}
 
 usersCtrl.updateUser = async (req, res) => {
     // checar si el usuario por el que quiere cambiar está ocupado

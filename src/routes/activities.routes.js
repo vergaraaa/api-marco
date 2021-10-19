@@ -1,15 +1,22 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getActivities, getActivity, createActivity, deleteActivity, updateActivity } = require('../controllers/activities.controller');
+const { getActivities, getActivity, createActivity, deleteActivity, updateActivity, getMonthActivities, getNextMonthActivities } = require('../controllers/activities.controller');
 
 router.route('/')
     .get(getActivities)
-    .post(createActivity)
+    .post(createActivity);
+
+router.route('/month')
+    .get(getMonthActivities);
+
+router.route('/nextMonth')
+    .get(getNextMonthActivities);
 
 router.route('/:id')
     .get(getActivity)
     .put(updateActivity)
-    .delete(deleteActivity)
+    .delete(deleteActivity);
+
 
 module.exports = router;

@@ -5,11 +5,11 @@ const { getExpos, createExpo, getExpo, updateExpo, deleteExpo } = require('../co
 
 router.route('/')
     .get(getExpos)
-    .post(createExpo)
+    .post(createExpo);
 
 router.route('/:id')
     .get(getExpo)
     .put(updateExpo)
-    .delete(deleteExpo)
+    .delete(deleteExpo);
 
 module.exports = router;

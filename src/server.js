@@ -42,7 +42,7 @@ app.use(multer({
             return cb(null, true);
         cb("error: file must be a valid image or video");
     }
-}).array("files", 12));
+}).array("files", 15));
 
 // routes 
 app.use("/api/users", require("./routes/users.routes"));

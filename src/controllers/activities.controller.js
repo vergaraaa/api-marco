@@ -1,5 +1,6 @@
-activitiesCtrl = { };
 const fs = require('fs');
+const { get } = require('http');
+activitiesCtrl = { };
 
 const Activity = require('../models/Activity');
 
@@ -13,8 +14,65 @@ activitiesCtrl.getActivity = async(req, res) => {
     res.json(activity);
 }
 
+activitiesCtrl.getMonthActivities = async (req, res) => {
+    const activities = await Activity
+        .aggregate([
+            { $match: 
+                { $expr: 
+                    { $and: [
+                            { $eq: 
+                                [
+                                    { $month: "$startDate" }, 
+                                    { $month: new Date() },
+
+                                ] 
+                            },
+                            { $eq: 
+                                [
+                                    { $year: "$startDate" },
+                                    { $year: new Date() }
+                                ] 
+                            }  
+                        ]
+                    }
+                } 
+            } 
+        ])
+        .sort({ startDate: 'asc' });
+    res.json(activities);
+}
+
+activitiesCtrl.getNextMonthActivities = async (req, res) => {
+    var nextMonth = new Date();
+    nextMonth = new Date(nextMonth.getFullYear(), nextMonth.getMonth()+1, nextMonth.getDay());
+    const activities = await Activity
+        .aggregate([
+            { $match: 
+                { $expr: 
+                    { $and: [
+                            { $eq: 
+                                [
+                                    { $month: "$startDate" }, 
+                                    { $month: nextMonth },
+
+                                ] 
+                            },
+                            { $eq: 
+                                [
+                                    { $year: "$startDate" },
+                                    { $year: nextMonth }
+                                ] 
+                            }  
+                        ]
+                    }
+                } 
+            } 
+        ])
+        .sort({ startDate: 'asc' });
+    res.json(activities);
+}
+
 activitiesCtrl.createActivity = async(req, res) => {
-    console.log(req.files);
     var img;
     req.files.forEach(file => {
         img = file.filename;
