@@ -7,6 +7,11 @@ guidesCtrl.getGuides = async (req, res) => {
     res.json(guides);
 }
 
+guidesCtrl.getGuide = async (req, res) => {
+    const guide = await Guide.findById(req.params.id);
+    res.json(guide);
+}
+
 guidesCtrl.createGuide = async (req, res) => {
     const email = await Guide.findOne({ email: req.body.email });
     if(email){
@@ -20,7 +25,7 @@ guidesCtrl.createGuide = async (req, res) => {
 }
 
 guidesCtrl.updateGuide = async (req, res) => {
-    await Guide.findByIdAndUpdate(req, params.id, req.body);
+    await Guide.findByIdAndUpdate(req.params.id, req.body);
     res.json("guide updated");
 }
 

@@ -53,7 +53,15 @@ usersCtrl.loginUser = async (req, res) => {
         if (match){
             const token = jwt.sign({email: req.body.email}, "SECRET")
             if (token){
-                res.json({ message: "token", token: token, usertype: user.usertype, success: true })
+                res.json({ 
+                    message: "token", 
+                    token: token, 
+                    id: user._id.toString(), 
+                    name: user.name,
+                    lastname: user.lastname,
+                    usertype: user.usertype, 
+                    success: true 
+                })
             } else {
                 res.json({message: "Authentication Failed.", success: false})
             }

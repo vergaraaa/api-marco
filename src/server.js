@@ -45,10 +45,11 @@ app.use(multer({
 }).array("files", 15));
 
 // routes 
-app.use("/api/users", require("./routes/users.routes"));
-app.use("/api/expos", require("./routes/expos.routes"));
-app.use("/api/collaborators", require("./routes/collaborators.routes"));
-app.use("/api/activities", require("./routes/activities.routes"));
-app.use("/api/guides", require("./routes/guides.routes"));
+app.use("/api/users/", require("./routes/users.routes"));
+app.use("/api/expos/", require("./routes/expos.routes"));
+app.use("/api/collaborators/", require("./routes/collaborators.routes"));
+app.use("/api/activities/", require("./routes/activities.routes"));
+app.use("/api/guides/", require("./routes/guides.routes"));
+app.use("/api/reservations/", require("./routes/reservations.routes"));
 
 module.exports = app;
