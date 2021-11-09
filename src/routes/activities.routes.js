@@ -1,11 +1,12 @@
 const { Router } = require('express');
 const router = Router();
+const validateToken = require('../helpers/validateToken');
 
 const { getActivities, getActivity, createActivity, deleteActivity, updateActivity, getMonthActivities, getNextMonthActivities } = require('../controllers/activities.controller');
 
 router.route('/')
     .get(getActivities)
-    .post(createActivity);
+    .post(validateToken, createActivity);
 
 router.route('/month')
     .get(getMonthActivities);

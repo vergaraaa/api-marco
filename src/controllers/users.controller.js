@@ -51,7 +51,9 @@ usersCtrl.loginUser = async (req, res) => {
     if(user){
         const match = await user.matchPassword(req.body.password);
         if (match){
-            const token = jwt.sign({email: req.body.email}, "SECRET")
+            const token = jwt.sign({email: req.body.email}, "SECRET", {
+                expiresIn: '10s'
+            });
             if (token){
                 res.json({ 
                     message: "token", 
@@ -82,7 +84,9 @@ usersCtrl.loginAdmin = async (req, res) => {
         if(user.usertype.includes("admin") || user.usertype.includes("collaborator")){
             const match = await user.matchPassword(req.body.password);
             if (match){
-                const token = jwt.sign({email: req.body.email}, "SECRET")
+                const token = jwt.sign({email: req.body.email}, "SECRET", {
+                    expiresIn: '30s'
+                });
                 if (token){
                     res.json({ message: "token", token: token, user: user, success: true })
                 } else {
@@ -100,6 +104,21 @@ usersCtrl.loginAdmin = async (req, res) => {
     else {
         res.json({message: "Email does not exist.", success: false});
     }
+}
+
+usersCtrl.adminToken = async (req, res) => {
+    const token = req.headers.auth_key;
+    jwt.verify(token, "SECRET", (err, decoded) => {   
+        if (err) {
+            return res.status(401).json({
+                error: err
+            }); 
+        } 
+        else{
+            res.json(token);
+        }
+    });
+
 }
 
 module.exports = usersCtrl;

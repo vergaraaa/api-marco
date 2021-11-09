@@ -1,25 +1,28 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getUsers, createUser, getUser, updateUser, deleteUser, loginUser, loginAdmin, getUserName } = require('../controllers/users.controller');
+const { getUsers, createUser, getUser, updateUser, deleteUser, loginUser, loginAdmin, getUserName, adminToken } = require('../controllers/users.controller');
 
 router.route('/')
     .get(getUsers)
-    .post(createUser)
+    .post(createUser);
 
 router.route('/:id')
     .get(getUser)
     .put(updateUser)
-    .delete(deleteUser)
+    .delete(deleteUser);
 
 router.route('/name/:id')
-    .get(getUserName)
+    .get(getUserName);
 
-router.route('/login')
-    .post(loginUser)
+router.route('/login/')
+    .post(loginUser);
 
-router.route('/login/admin')
-    .post(loginAdmin)
+router.route('/login/admin/')
+    .post(loginAdmin);
+
+router.route('/admin/validateToken/')
+    .get(adminToken);
 
 
 module.exports = router;
