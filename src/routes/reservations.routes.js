@@ -1,7 +1,7 @@
 const { Router } = require('express');
 const router = Router();
 
-const { getReservations, createReservation, getAvailableReservations, deleteReservation, updateReservation, getReservation, getUserReservations, addReservation } = require('../controllers/reservations.controllers');
+const { getReservations, createReservation, getAvailableReservations, deleteReservation, updateReservation, getReservation, getUserReservations, addReservation, getGuideReservations } = require('../controllers/reservations.controllers');
 
 router.route('/')
     .get(getReservations)
@@ -20,5 +20,6 @@ router.route('/add/:id')
 
 router.route('/user/:id')   
     .get(getUserReservations)
+    .post(getGuideReservations);
 
 module.exports = router;

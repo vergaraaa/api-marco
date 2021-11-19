@@ -1,6 +1,7 @@
 reservationsCtrl = {  };
-
+// sudo lsof -i :10021
 const Reservation = require('../models/Reservation');
+const User = require('../models/User');
 
 reservationsCtrl.getReservations = async (req, res) => {
     var today = new Date();
@@ -78,8 +79,19 @@ reservationsCtrl.addReservation = async (req, res) => {
 }
 
 reservationsCtrl.getUserReservations = async(req, res) => {
-    console.log(req.params.id);
+    // console.log(req.params.id);
     const reservations = await Reservation.find({ user: req.params.id }).sort({ date: 'asc', hour: 'asc'});
+    // console.log(reservations);
+    res.json(reservations);
+}
+
+reservationsCtrl.getGuideReservations = async (req, res) => {
+    const guide = await User.findById(req.params.id);
+    const reservations = await Reservation.find({ 
+        date: { $gte: new Date(req.body.from_date).toISOString(), $lt: new Date(req.body.to_date).toISOString() },
+        "guide.email": guide.email
+    })
+    .sort({ date: 'asc', hour: 'asc'});
     console.log(reservations);
     res.json(reservations);
 }

@@ -52,7 +52,7 @@ usersCtrl.loginUser = async (req, res) => {
         const match = await user.matchPassword(req.body.password);
         if (match){
             const token = jwt.sign({email: req.body.email}, "SECRET", {
-                expiresIn: '10s'
+                expiresIn: '24h'
             });
             if (token){
                 res.json({ 
@@ -81,11 +81,13 @@ usersCtrl.loginAdmin = async (req, res) => {
     const user = await User.findOne({ email: req.body.email });
 
     if(user){
-        if(user.usertype.includes("admin") || user.usertype.includes("collaborator")){
+        if(user.usertype.includes("admin") || 
+           user.usertype.includes("collaborator") || 
+           user.usertype.includes("guide")){
             const match = await user.matchPassword(req.body.password);
             if (match){
                 const token = jwt.sign({email: req.body.email}, "SECRET", {
-                    expiresIn: '30s'
+                    expiresIn: '24h'
                 });
                 if (token){
                     res.json({ message: "token", token: token, user: user, success: true })
@@ -118,7 +120,6 @@ usersCtrl.adminToken = async (req, res) => {
             res.json(token);
         }
     });
-
 }
 
 module.exports = usersCtrl;

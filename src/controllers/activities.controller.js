@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { get } = require('http');
 activitiesCtrl = { };
 
 const Activity = require('../models/Activity');
@@ -15,6 +14,34 @@ activitiesCtrl.getActivity = async(req, res) => {
 }
 
 activitiesCtrl.getMonthActivities = async (req, res) => {
+    const activities = await Activity
+        .aggregate([
+            { $match: 
+                { $expr: 
+                    { $and: [
+                            { $eq: 
+                                [
+                                    { $month: "$startDate" }, 
+                                    { $month: new Date(req.body.month) },
+
+                                ] 
+                            },
+                            { $eq: 
+                                [
+                                    { $year: "$startDate" },
+                                    { $year: new Date(req.body.year) }
+                                ] 
+                            }  
+                        ]
+                    }
+                } 
+            } 
+        ])
+        .sort({ startDate: 'asc' });
+    res.json(activities);
+}
+
+activitiesCtrl.getThisMonthActivities = async (req, res) => {
     const activities = await Activity
         .aggregate([
             { $match: 
