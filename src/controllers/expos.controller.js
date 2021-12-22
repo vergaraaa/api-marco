@@ -11,20 +11,28 @@ exposCtrl.getExpos = async(req, res) => {
 
 exposCtrl.createExpo = async (req, res) => {
     const images = [];
+    const sponsors = [];
     var audio = "";
     req.files.forEach(file => {
         if(file.mimetype === 'audio/mpeg'){
             audio = "http://100.24.228.237:10021/uploads/" + file.filename;
         }
         else{
-            images.push("http://100.24.228.237:10021/uploads/" + file.filename);
+            if(!file.originalname.startsWith("sponsor:")){
+                images.push("http://100.24.228.237:10021/uploads/" + file.filename);
+            }
+            else{
+                sponsors.push("http://100.24.228.237:10021/uploads/" + file.filename);
+            }
         }
         // images.push("http://localhost:3000/uploads/" + file.filename);
         // images.push("https://api-marco.herokuapp.com/" + file.filename);
     });
     req.body.images = images;
     req.body.audio = audio;
+    req.body.sponsors = sponsors;
     const newExpo = await new Expo(req.body);
+    console.log(newExpo);
     await newExpo.save();
     res.json(newExpo);
 };
@@ -120,6 +128,7 @@ exposCtrl.deleteExpo = async (req, res) => {
     const expo = await Expo.findByIdAndDelete(req.params.id);
     deleteImages(expo.images);
     deleteImages([expo.audio]);
+    deleteImages(expo.sponsors);
     res.json("expo deleted");
 };
 

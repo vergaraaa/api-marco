@@ -15,7 +15,8 @@ const Expo = new Schema ({
     museography: { type: String, required: true },
     location: { type: String, required: true },
     technique: { type: String, required: true },
-    totalPieces: { type: String, required: true }
+    totalPieces: { type: String, required: true },
+    sponsors: [{ type: String }]
 }, {
     timestamps: true
 });
