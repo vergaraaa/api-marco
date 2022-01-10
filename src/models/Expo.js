@@ -8,6 +8,7 @@ const Expo = new Schema ({
     endDate: { type: String, required: true },
     description: { type: String, required: true },
     virtualTourURL: { type: String, required: true },
+    state: { type: String, required: true },
     authorCapsuleURL: { type: String },
     images: [{ type: String }],
     audio: { type: String, required: true },

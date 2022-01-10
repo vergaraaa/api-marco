@@ -5,6 +5,7 @@ const Guide = new Schema ({
     email: { type: String, required: true, unique: true },
     name: { type: String, required: true },
     lastname: { type: String, required: true },
+    cellphone: { type: String, required: true }
 }, {
     timestamps: true
 });

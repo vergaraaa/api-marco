@@ -42,6 +42,24 @@ exposCtrl.getExpo = async(req, res) => {
     res.json(expo);
 }
 
+exposCtrl.getCurrentExpos = async(req, res) => {
+    const expos = await Expo.find({ state: 'current' });
+    console.log(expos);
+    res.json(expos);
+}
+
+exposCtrl.getPastExpos = async(req, res) => {
+    const expos = await Expo.find({ state: 'past' });
+    console.log(expos);
+    res.json(expos);
+}
+
+exposCtrl.getUpcomingExpos = async(req, res) => {
+    const expos = await Expo.find({ state: 'upcoming' });
+    console.log(expos);
+    res.json(expos);
+}
+
 function deleteImages(images){
     images.forEach(image => {
         var imageName = image.substring(image.lastIndexOf("/")+1);
