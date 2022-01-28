@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const exposCtrl = { };
+const exposCtrl = {};
 
 const Expo = require('../models/Expo');
 
@@ -9,24 +9,20 @@ exposCtrl.getExpos = async(req, res) => {
     res.json(expos);
 };
 
-exposCtrl.createExpo = async (req, res) => {
+exposCtrl.createExpo = async(req, res) => {
     const images = [];
     const sponsors = [];
     var audio = "";
     req.files.forEach(file => {
-        if(file.mimetype === 'audio/mpeg'){
-            audio = "http://100.24.228.237:10021/uploads/" + file.filename;
-        }
-        else{
-            if(!file.originalname.startsWith("sponsor:")){
-                images.push("http://100.24.228.237:10021/uploads/" + file.filename);
-            }
-            else{
-                sponsors.push("http://100.24.228.237:10021/uploads/" + file.filename);
+        if (file.mimetype === 'audio/mpeg') {
+            audio = "https://admin.marco.org.mx/api/uploads/" + file.filename;
+        } else {
+            if (!file.originalname.startsWith("sponsor:")) {
+                images.push("https://admin.marco.org.mx/api/uploads/" + file.filename);
+            } else {
+                sponsors.push("https://admin.marco.org.mx/api/uploads/" + file.filename);
             }
         }
-        // images.push("http://localhost:3000/uploads/" + file.filename);
-        // images.push("https://api-marco.herokuapp.com/" + file.filename);
     });
     req.body.images = images;
     req.body.audio = audio;
@@ -60,62 +56,55 @@ exposCtrl.getUpcomingExpos = async(req, res) => {
     res.json(expos);
 }
 
-function deleteImages(images){
+function deleteImages(images) {
     images.forEach(image => {
-        var imageName = image.substring(image.lastIndexOf("/")+1);
+        var imageName = image.substring(image.lastIndexOf("/") + 1);
         fs.unlink("src/public/uploads/" + imageName, (err) => {
             if (err) throw err;
-            console.log( imageName + ' was deleted');
+            console.log(imageName + ' was deleted');
         });
     });
 }
 
-exposCtrl.updateExpo = async (req, res) => {
-    if(req.files.length){
+exposCtrl.updateExpo = async(req, res) => {
+    if (req.files.length) {
         const expo = await Expo.findById(req.params.id);
         var imagesToKeep = [];
         var imagesToDelete = expo.images;
-        
+
         // Si el audio es el mismo
-        if(req.files[0].mimetype === "audio/mpeg"){
+        if (req.files[0].mimetype === "audio/mpeg") {
             var audio = "";
-            if(req.body.audio === expo.audio){
+            if (req.body.audio === expo.audio) {
                 audio = req.body.audio;
             }
             // Si cambió el audio
-            else{
-                if(req.files){
+            else {
+                if (req.files) {
                     req.files.forEach(file => {
-                        if(file.mimetype === "audio/mpeg"){
-                            audio = "http://100.24.228.237:10021/uploads/" + file.filename;
+                        if (file.mimetype === "audio/mpeg") {
+                            audio = "https://admin.marco.org.mx/api/uploads/" + file.filename;
                         }
                     });
                     deleteImages([expo.audio]);
                 }
             }
             req.body.audio = audio;
-        }
-        else{
+        } else {
             // Cuando la imagen de portada es la misma
-            if(req.body.coverImage === expo.images[0]){
+            if (req.body.coverImage === expo.images[0]) {
                 imagesToKeep.push(req.body.coverImage);
                 req.files.forEach(file => {
-                    imagesToKeep.push("http://100.24.228.237:10021/uploads/" + file.filename);
-                    // imagesToKeep.push("http://172.31.0.24:10021/uploads/" + file.filename);
-                    // imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
-                    // images.push("https://api-marco.herokuapp.com/" + file.filename);
+                    imagesToKeep.push("https://admin.marco.org.mx/api/uploads/" + file.filename);
                 });
                 imagesToDelete.shift();
                 deleteImages(imagesToDelete);
             }
             // Cuando la imagen de portada cambia
-            else if(req.body.otherImages){
+            else if (req.body.otherImages) {
                 // console.log(req.body.otherImages);
                 req.files.forEach(file => {
-                    imagesToKeep.push("http://100.24.228.237:10021/uploads/" + file.filename);
-                    // imagesToKeep.push("http://172.31.0.24:10021/uploads/" + file.filename);
-                    // imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
-                    // images.push("https://api-marco.herokuapp.com/" + file.filename);
+                    imagesToKeep.push("https://admin.marco.org.mx/api/uploads/" + file.filename);
                 });
                 req.body.otherImages.forEach(image => {
                     imagesToKeep.push(image);
@@ -126,12 +115,9 @@ exposCtrl.updateExpo = async (req, res) => {
                 deleteImages(imagesToDelete);
             }
             // Si todo cambia
-            else if(!req.body.coverImage && !req.body.otherImages){
+            else if (!req.body.coverImage && !req.body.otherImages) {
                 req.files.forEach(file => {
-                    imagesToKeep.push("http://100.24.228.237:10021/uploads/" + file.filename);
-                    // imagesToKeep.push("http://172.31.0.24:10021/uploads/" + file.filename);
-                    // imagesToKeep.push("http://localhost:3000/uploads/" + file.filename);
-                    // images.push("https://api-marco.herokuapp.com/" + file.filename);
+                    imagesToKeep.push("https://admin.marco.org.mx/api/uploads/" + file.filename);
                 });
                 deleteImages(imagesToDelete);
             }
@@ -142,7 +128,7 @@ exposCtrl.updateExpo = async (req, res) => {
     res.json('expo updated');
 }
 
-exposCtrl.deleteExpo = async (req, res) => {
+exposCtrl.deleteExpo = async(req, res) => {
     const expo = await Expo.findByIdAndDelete(req.params.id);
     deleteImages(expo.images);
     deleteImages([expo.audio]);
