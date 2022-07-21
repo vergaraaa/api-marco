@@ -5,6 +5,7 @@ const multer = require('multer');
 const { v4: uuid } = require('uuid');
 const path = require('path')
 const app = express();
+const nocache = require('nocache');
 
 // settings
 app.set('port', 10021 || process.env.PORT);
@@ -13,6 +14,7 @@ app.set('port', 10021 || process.env.PORT);
 require('./database.js');
 
 // middlewares
+app.use(nocache());
 app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
@@ -76,5 +78,6 @@ app.use("/collaborators/", require("./routes/collaborators.routes"));
 app.use("/activities/", require("./routes/activities.routes"));
 app.use("/guides/", require("./routes/guides.routes"));
 app.use("/reservations/", require("./routes/reservations.routes"));
+app.use("/priceandmenu/", require("./routes/pricesandrestaurant.routes"));
 
 module.exports = app;

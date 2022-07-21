@@ -1,0 +1,156 @@
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\node\api-marco\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\node\api-marco\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\node\api-marco\node_modules\raw-body\index.js:224:16)
+    at done (C:\node\api-marco\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\node\api-marco\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `activities.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `activities.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `activities.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `activities.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `activities.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149
+          const err = new MongooseError(message);
+                      ^
+
+MongooseError: Operation `activities.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\node\api-marco\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:149:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)

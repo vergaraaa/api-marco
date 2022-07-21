@@ -18,7 +18,7 @@ router.route('/nextMonth')
 router.route('/:id')
     .get(getActivity)
     .put(validateToken, updateActivity)
-    .delete(deleteActivity);
+    .delete(validateToken, deleteActivity);
 
 
 module.exports = router;

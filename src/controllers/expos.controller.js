@@ -10,6 +10,8 @@ exposCtrl.getExpos = async(req, res) => {
 };
 
 exposCtrl.createExpo = async(req, res) => {
+    console.log('res');
+    console.log(req.body);
     const images = [];
     const sponsors = [];
     var audio = "";
@@ -40,13 +42,13 @@ exposCtrl.getExpo = async(req, res) => {
 
 exposCtrl.getCurrentExpos = async(req, res) => {
     const expos = await Expo.find({ state: 'current' });
-    console.log(expos);
+    // console.log(expos);
     res.json(expos);
 }
 
 exposCtrl.getPastExpos = async(req, res) => {
     const expos = await Expo.find({ state: 'past' });
-    console.log(expos);
+    // console.log(expos);
     res.json(expos);
 }
 

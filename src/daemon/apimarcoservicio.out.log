@@ -1,0 +1,2446 @@
+server on port  10021
+db is connected
+[0mGET /expos [32m200[0m 73.805 ms - 6749[0m
+[0mGET /activities/month [32m200[0m 19.565 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 14.626 ms - 584606[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 12.579 ms - 64[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 11.010 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 30.104 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.417 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 81.986 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [36m304[0m 3.957 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.793 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'undefined',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T03:42:48.306Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 20.105 ms - 867[0m
+[0mGET /expos [32m200[0m 16.714 ms - 6749[0m
+[0mGET /activities/month [36m304[0m 20.818 ms - -[0m
+[0mGET /expos [36m304[0m 24.860 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 27.331 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 36.272 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 27.186 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 13.923 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 37.852 ms - -[0m
+[0mGET /expos [36m304[0m 43.131 ms - -[0m
+[0mGET /activities/month [36m304[0m 49.019 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 50.033 ms - -[0m
+[0mGET /expos [32m200[0m 13.028 ms - 6749[0m
+[0mGET /activities/month [32m200[0m 5.872 ms - 869[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 9.051 ms - 2013446[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 42.764 ms - 584606[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 3.521 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 3.546 ms - 1550114[0m
+[0mGET /expos [36m304[0m 12.534 ms - -[0m
+[0mGET /activities/month [32m200[0m 13.863 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 3.050 ms - 584606[0m
+[0mGET /activities/month [32m200[0m 8.140 ms - 869[0m
+[0mGET /expos [32m200[0m 14.422 ms - 6749[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 3.173 ms - 584606[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 1.650 ms - 0[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.150 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.312 ms - 64[0m
+[0mOPTIONS /users/login/admin [32m204[0m 0.795 ms - 0[0m
+[0mPOST /users/login/admin [32m200[0m 414.260 ms - 498[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.360 ms - 0[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.555 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 13.351 ms - 16[0m
+[0mGET /activities/month [32m200[0m 28.644 ms - 869[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 30.296 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 34.220 ms - 26[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 41.380 ms - 91[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.560 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.508 ms - 0[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.814 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.340 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 3.370 ms - 584606[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'undefined',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T03:42:48.306Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 12.021 ms - 867[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.437 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.427 ms - 0[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.105 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.848 ms - 64[0m
+[0mOPTIONS /users/login/admin [32m204[0m 0.364 ms - 0[0m
+[0mPOST /users/login/admin [32m200[0m 343.016 ms - 498[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.616 ms - 0[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 1.912 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 43.881 ms - 16[0m
+[0mGET /activities/month [32m200[0m 32.883 ms - 869[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 34.322 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 35.804 ms - 26[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 34.350 ms - 91[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.556 ms - 0[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.521 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.462 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 3.295 ms - 584606[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'undefined',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T03:42:48.306Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [36m304[0m 12.317 ms - -[0m
+[0mOPTIONS /activities/623be8b8424d47087f51753b [32m204[0m 0.472 ms - 0[0m
+[Object: null prototype] {
+  coverImage: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: '2022-03-28',
+  endDate: '2022-03-28',
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: 'true',
+  urlTickets: 'mailto:mercadotecnia@marco.org.mx',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png'
+}
+[0mPUT /activities/623be8b8424d47087f51753b [32m200[0m 77.788 ms - 18[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.419 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.584 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.434 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.308 ms - 892[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.473 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.235 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: true,
+  urlTickets: 'mailto:mercadotecnia@marco.org.mx',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:08:41.717Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 9.012 ms - 890[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.235 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.754 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 237.573 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 1.996 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 10.227 ms - 16[0m
+[0mGET /activities/month [32m200[0m 13.674 ms - 892[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 15.509 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 17.398 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 18.890 ms - 26[0m
+[0mPOST /activities/month/ [32m200[0m 13.350 ms - 892[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 1.954 ms - 584606[0m
+[0mGET /expos [36m304[0m 10.457 ms - -[0m
+[Object: null prototype] {
+  coverImage: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: '2022-03-28',
+  endDate: '2022-03-28',
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: 'true',
+  urlTickets: '<a href="mailto:mercadotecnia@marco.org.mx">',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png'
+}
+[0mPUT /activities/623be8b8424d47087f51753b [32m200[0m 34.515 ms - 18[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.120 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 7.001 ms - 905[0m
+[0mGET /activities/month [32m200[0m 10.366 ms - 905[0m
+[0mGET /expos [36m304[0m 10.535 ms - -[0m
+[0mGET /expos [36m304[0m 9.928 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.931 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: true,
+  urlTickets: '<a href="mailto:mercadotecnia@marco.org.mx">',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:12:26.209Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 11.222 ms - 903[0m
+[Object: null prototype] {
+  coverImage: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: '2022-03-28',
+  endDate: '2022-03-28',
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: 'false',
+  urlTickets: 'empty',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png'
+}
+[0mPUT /activities/623be8b8424d47087f51753b [32m200[0m 32.440 ms - 18[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.309 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.732 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.351 ms - -[0m
+[Object: null prototype] {
+  coverImage: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: '2022-03-28',
+  endDate: '2022-03-28',
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: 'false',
+  urlTickets: 'empty',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png'
+}
+[0mPUT /activities/623be8b8424d47087f51753b [32m200[0m 29.082 ms - 18[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.137 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.281 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.143 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.767 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 4.085 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 14.974 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 11.578 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.482 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.236 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 7.387 ms - 865[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [36m304[0m 1.484 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.397 ms - -[0m
+[0mGET /expos [36m304[0m 10.658 ms - -[0m
+[Object: null prototype] {
+  coverImage: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: '2022-03-28',
+  endDate: '2022-03-28',
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: 'false',
+  urlTickets: 'empty',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png'
+}
+[0mPUT /activities/623be8b8424d47087f51753b [32m200[0m 30.485 ms - 18[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.093 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.887 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.287 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'empty',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:13:45.187Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 7.599 ms - 863[0m
+[0mGET /expos [36m304[0m 7.148 ms - -[0m
+[0mGET /activities/month [32m200[0m 3.532 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.094 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 11.250 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 20.051 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 13.932 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 13.657 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.429 ms - -[0m
+[0mGET /collaborators/ [32m200[0m 3.684 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.348 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 6.430 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.552 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [32m200[0m 18.149 ms - 4194[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 10.469 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 4.263 ms - 1550114[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.285 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 10.494 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.833 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.437 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 14.202 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.280 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.458 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.874 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.159 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 15.802 ms - -[0m
+[0mGET /activities/month [36m304[0m 15.323 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 19.522 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.312 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 18.553 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.393 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.057 ms - -[0m
+[0mGET /reservations/ [32m200[0m 16.396 ms - 2[0m
+[0mGET /guides/ [32m200[0m 6.745 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.173 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 6.125 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.181 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 8.217 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 13.094 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.860 ms - -[0m
+[0mGET /activities/month [36m304[0m 16.566 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 13.018 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.177 ms - -[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 9.212 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 6.693 ms - 1550114[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.032 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.387 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 9.554 ms - 865[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.369 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.755 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.472 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.403 ms - -[0m
+[0mGET /collaborators/ [32m200[0m 4.398 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.435 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.129 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 3.560 ms - -[0m
+[0mGET /activities/month [32m200[0m 10.447 ms - 865[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.445 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.126 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.099 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.031 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.216 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.268 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 6.009 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 6.212 ms - -[0m
+[0mGET /activities/month [36m304[0m 10.383 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.160 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.494 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.189 ms - -[0m
+[0mGET /collaborators/ [36m304[0m 4.850 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.198 ms - -[0m
+[0mGET /guides/ [32m200[0m 4.547 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.015 ms - -[0m
+[0mGET /reservations/ [32m200[0m 5.310 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.025 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.998 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.091 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [36m304[0m 12.328 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 4.330 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 8.900 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 22.528 ms - -[0m
+[0mGET /activities/month [36m304[0m 18.086 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 19.217 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 20.383 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.407 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.954 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [36m304[0m 11.785 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.153 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.346 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 5.197 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.046 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.015 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.378 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 4.020 ms - -[0m
+[0mGET /collaborators/ [36m304[0m 5.066 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.227 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 12.676 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.391 ms - -[0m
+[0mGET /activities/month [36m304[0m 19.856 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 16.574 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.236 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.766 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.014 ms - -[0m
+[0mGET /collaborators/ [36m304[0m 4.811 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.133 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.010 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.138 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.341 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 9.503 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.714 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [36m304[0m 16.822 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.559 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 18.233 ms - -[0m
+[0mGET /activities/month [36m304[0m 15.173 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 15.013 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 11.455 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.200 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.077 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.463 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.053 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [36m304[0m 12.379 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.179 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.209 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.657 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'empty',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:13:45.187Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [36m304[0m 7.807 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.399 ms - -[0m
+[0mGET /activities/month [36m304[0m 5.158 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 7.236 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 19.244 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.053 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 15.948 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.154 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.330 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.120 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'empty',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:13:45.187Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [36m304[0m 7.853 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.242 ms - -[0m
+[0mGET /activities/month [36m304[0m 19.390 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.817 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 23.903 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 20.495 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 22.062 ms - -[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 2.673 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 7.664 ms - 1550114[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.097 ms - 2013446[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.204 ms - -[0m
+[0mGET /guides/ [36m304[0m 4.834 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.167 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [36m304[0m 14.342 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.826 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.171 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 16.514 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 24.627 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 20.370 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.293 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.261 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.361 ms - -[0m
+[0mGET /collaborators/ [36m304[0m 3.231 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.306 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 9.467 ms - 865[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.138 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'empty',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:13:45.187Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [36m304[0m 8.846 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.475 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.278 ms - -[0m
+[0mGET /activities/month [36m304[0m 10.756 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.528 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 19.975 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 21.580 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 23.046 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 6.591 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.800 ms - -[0m
+[0mGET /collaborators/ [36m304[0m 4.416 ms - -[0m
+[0mGET /expos [36m304[0m 15.220 ms - -[0m
+[0mGET /activities/month [32m200[0m 15.602 ms - 865[0m
+[0mGET /activities/month [36m304[0m 6.826 ms - -[0m
+[0mGET /expos [36m304[0m 13.141 ms - -[0m
+[0mGET /expos [36m304[0m 15.456 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.121 ms - -[0m
+[0mGET /expos [36m304[0m 9.226 ms - -[0m
+[0mGET /activities/month [36m304[0m 4.910 ms - -[0m
+[0mGET /expos [36m304[0m 10.112 ms - -[0m
+[0mGET /activities/month [36m304[0m 4.627 ms - -[0m
+[0mGET /expos [36m304[0m 6.256 ms - -[0m
+[0mGET /activities/month [36m304[0m 3.531 ms - -[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 8.892 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 18.464 ms - 26[0m
+[0mGET /activities/month [36m304[0m 18.249 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 18.635 ms - 25[0m
+[0mGET /expos [36m304[0m 10.067 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 30.838 ms - 25[0m
+[0mGET /expos [32m200[0m 35.224 ms - 6749[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 44.669 ms - 26[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 45.708 ms - 91[0m
+[0mGET /activities/month [32m200[0m 53.775 ms - 865[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 54.644 ms - 584606[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 13.847 ms - 2013446[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 6.189 ms - 26[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 6.929 ms - 25[0m
+[0mGET /expos [32m200[0m 13.865 ms - 6749[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 14.464 ms - 91[0m
+[0mGET /activities/month [32m200[0m 15.398 ms - 865[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.921 ms - 2013446[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 2.536 ms - 584606[0m
+[0mGET /uploads/d5db4540-9912-4698-bc84-3e2eae7603c8.png [32m200[0m 3.525 ms - 114011[0m
+[0mGET /uploads/10586cfd-cf0c-414a-b09b-65118a3f6a33.png [32m200[0m 3.379 ms - 1693[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 12.398 ms - 25[0m
+[0mGET /expos [32m200[0m 17.739 ms - 6749[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 22.549 ms - 26[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 22.181 ms - 91[0m
+[0mGET /activities/month [32m200[0m 21.430 ms - 865[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 5.110 ms - 584606[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 2.379 ms - 2013446[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 4.402 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 3.217 ms - 1550114[0m
+[0mGET /activities/month [32m200[0m 8.186 ms - 865[0m
+[0mGET /expos [36m304[0m 12.621 ms - -[0m
+[0mGET /expos [36m304[0m 11.920 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.974 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.067 ms - -[0m
+[0mGET /expos [36m304[0m 14.179 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 15.990 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 17.031 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 18.299 ms - -[0m
+[0mGET /activities/month [36m304[0m 19.281 ms - -[0m
+[0mGET /expos [36m304[0m 26.214 ms - -[0m
+[0mGET /expos [36m304[0m 11.221 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.248 ms - -[0m
+[0mGET /activities/month [36m304[0m 4.902 ms - -[0m
+[0mGET /expos [36m304[0m 9.472 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 5.663 ms - -[0m
+[0mGET /expos [36m304[0m 12.358 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 25.134 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 18.398 ms - -[0m
+[0mGET /activities/month [32m200[0m 15.869 ms - 865[0m
+[0mGET /expos [36m304[0m 9.847 ms - -[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 10.522 ms - 899000[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.904 ms - 2013446[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 44.293 ms - 1550114[0m
+[0mGET /uploads/10586cfd-cf0c-414a-b09b-65118a3f6a33.png [32m200[0m 3.499 ms - 1693[0m
+[0mGET /uploads/d5db4540-9912-4698-bc84-3e2eae7603c8.png [32m200[0m 3.501 ms - 114011[0m
+[0mGET /expos [36m304[0m 10.852 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.817 ms - -[0m
+[0mGET /expos [32m200[0m 9.771 ms - 6749[0m
+[0mGET /activities/month [32m200[0m 4.767 ms - 865[0m
+[0mGET /activities/month [32m200[0m 13.127 ms - 865[0m
+[0mGET /expos [32m200[0m 22.139 ms - 6749[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 3.977 ms - 584606[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.876 ms - 101[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.262 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 319.036 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 4.118 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 6.132 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 15.994 ms - 25[0m
+[0mGET /activities/month [32m200[0m 17.783 ms - 865[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 26.847 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 20.923 ms - 26[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.915 ms - -[0m
+[0mGET /expos [36m304[0m 16.731 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.983 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 16.593 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 13.186 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 19.203 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 16.330 ms - -[0m
+[0mGET /expos [36m304[0m 25.892 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 26.987 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 29.133 ms - -[0m
+[0mGET /activities/month [36m304[0m 30.456 ms - -[0m
+[0mGET /expos [36m304[0m 9.605 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.227 ms - -[0m
+[0mGET /activities/month [36m304[0m 18.465 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 13.859 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 17.595 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 9.962 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.325 ms - -[0m
+[0mGET /expos [36m304[0m 22.657 ms - -[0m
+[0mGET /activities/month [36m304[0m 28.608 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 31.240 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.173 ms - -[0m
+[0mGET /expos [36m304[0m 19.076 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 24.049 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 21.227 ms - -[0m
+[0mGET /activities/month [36m304[0m 17.665 ms - -[0m
+[0mGET /expos [36m304[0m 23.491 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 9.804 ms - -[0m
+[0mGET /activities/month [36m304[0m 17.358 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.204 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.976 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 5.672 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.035 ms - -[0m
+[0mGET /expos [36m304[0m 22.561 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 22.123 ms - -[0m
+[0mGET /activities/month [36m304[0m 18.880 ms - -[0m
+[0mGET /expos [36m304[0m 16.854 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 17.263 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.450 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 19.630 ms - -[0m
+[0mGET /activities/month [36m304[0m 5.296 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.908 ms - -[0m
+[0mGET /activities/month [36m304[0m 3.841 ms - -[0m
+[0mGET /expos [36m304[0m 16.816 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.781 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 9.561 ms - -[0m
+[0mGET /uploads/648d7292-1c8c-4976-84cc-26da04096e3c.png [32m200[0m 8.378 ms - 131969[0m
+[0mGET /uploads/097f6a0e-d230-4d41-ad05-243b01bd83bb.png [32m200[0m 10.000 ms - 136226[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.081 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.756 ms - 64[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.750 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 4.549 ms - 865[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [36m304[0m 1.140 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.014 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'empty',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-24T16:13:45.187Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 5.377 ms - 863[0m
+[Object: null prototype] {
+  coverImage: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: '2022-03-28',
+  endDate: '2022-03-28',
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: 'false',
+  urlTickets: 'empty',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png'
+}
+[0mPUT /activities/623be8b8424d47087f51753b [32m200[0m 35.327 ms - 18[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.145 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 5.597 ms - 869[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 13.668 ms - -[0m
+[0mGET /activities/month [32m200[0m 23.928 ms - 869[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 27.000 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 17.756 ms - -[0m
+[0mGET /expos [36m304[0m 13.832 ms - -[0m
+[0mGET /activities/month [32m200[0m 30.149 ms - 869[0m
+[0mGET /expos [36m304[0m 28.340 ms - -[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 28.123 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 26.844 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 24.467 ms - 26[0m
+[0mGET /uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg [32m200[0m 3.653 ms - 75891[0m
+[0mGET /uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png [32m200[0m 6.592 ms - 1693[0m
+[0mGET /uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png [32m200[0m 4.283 ms - 113503[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.828 ms - -[0m
+{
+  _id: new ObjectId("623be8b8424d47087f51753b"),
+  name: 'TALLERES INFANTILES. LUNES DE ARTE: LA ABSTRACCIÓN',
+  author: 'EQUIPO MARCO',
+  startDate: 2022-03-28T00:00:00.000Z,
+  endDate: 2022-03-28T00:00:00.000Z,
+  description: 'Te invitamos a participar en estos talleres virtuales en donde disfrutarás haciendo diferentes técnicas de arte que te ayudarán a estimular tu creatividad e imaginación desde casa.\r\n' +
+    '\r\n' +
+    '*Dirigido a niños y niñas de 4 a 11 años.*\r\n' +
+    ' \r\n' +
+    'Informes y registro: marcomovil@marco.org.mx para revisar la información de acceso a la sesión en Zoom.\r\n' +
+    ' \r\n' +
+    '*Actividad sin costo*',
+  image: 'https://admin.marco.org.mx/api/uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png',
+  hour: '3:00 pm ',
+  location: 'Zoom',
+  organizer: 'MARCO',
+  paidActivity: false,
+  urlTickets: 'empty',
+  createdAt: 2022-03-24T03:42:48.306Z,
+  updatedAt: 2022-03-25T19:54:07.530Z,
+  __v: 0
+}
+[0mGET /activities/623be8b8424d47087f51753b [32m200[0m 8.738 ms - 867[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 12.830 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 17.799 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 16.970 ms - 26[0m
+[0mGET /activities/month [32m200[0m 18.104 ms - 869[0m
+[0mGET /expos [36m304[0m 21.595 ms - -[0m
+[0mGET /activities/month [36m304[0m 17.459 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.178 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 12.852 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 11.702 ms - -[0m
+[0mGET /expos [36m304[0m 24.353 ms - -[0m
+[0mGET /uploads/10586cfd-cf0c-414a-b09b-65118a3f6a33.png [32m200[0m 8.279 ms - 1693[0m
+[0mGET /uploads/d5db4540-9912-4698-bc84-3e2eae7603c8.png [32m200[0m 6.770 ms - 114011[0m
+[0mGET /expos [36m304[0m 10.041 ms - -[0m
+[0mGET /expos [32m200[0m 8.599 ms - 6749[0m
+[0mGET /activities/month [36m304[0m 18.171 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.821 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 22.181 ms - -[0m
+[0mGET /expos [36m304[0m 28.083 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 29.354 ms - -[0m
+[0mGET /activities/month [36m304[0m 8.618 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 11.207 ms - -[0m
+[0mGET /expos [36m304[0m 13.812 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 17.322 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 13.858 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.781 ms - -[0m
+[0mGET /expos [36m304[0m 22.078 ms - -[0m
+[0mGET /activities/month [36m304[0m 20.778 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 20.430 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.633 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.652 ms - -[0m
+[0mGET /expos [36m304[0m 20.639 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 19.456 ms - -[0m
+[0mGET /activities/month [36m304[0m 20.382 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.178 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 6.198 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.572 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 16.916 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.330 ms - -[0m
+[0mGET /expos [36m304[0m 10.133 ms - -[0m
+[0mGET /expos [36m304[0m 9.014 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.279 ms - -[0m
+[0mGET /activities/month [36m304[0m 10.535 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.630 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 13.744 ms - -[0m
+[0mGET /activities/month [36m304[0m 13.636 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 15.243 ms - -[0m
+[0mGET /expos [36m304[0m 21.101 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 25.566 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.565 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 9.889 ms - -[0m
+[0mGET /expos [36m304[0m 15.762 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.454 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 21.791 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 17.504 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.835 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 17.656 ms - -[0m
+[0mGET /expos [36m304[0m 27.398 ms - -[0m
+[0mGET /activities/month [36m304[0m 28.063 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 28.824 ms - -[0m
+[0mGET /expos [32m200[0m 8.899 ms - 6749[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 10.096 ms - 899000[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 7.127 ms - 2013446[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 9.579 ms - 1550114[0m
+[0mGET /activities/month [32m200[0m 3.437 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 2.217 ms - 584606[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.113 ms - -[0m
+[0mGET /activities/month [36m304[0m 19.232 ms - -[0m
+[0mGET /expos [36m304[0m 26.282 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 27.964 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 30.545 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 22.846 ms - -[0m
+[0mGET /activities/month [36m304[0m 23.585 ms - -[0m
+[0mGET /expos [36m304[0m 34.699 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 26.023 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.729 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 8.649 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.952 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.582 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 16.298 ms - -[0m
+[0mGET /expos [36m304[0m 10.796 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.040 ms - -[0m
+[0mGET /activities/month [36m304[0m 17.021 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 19.158 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 22.217 ms - -[0m
+[0mGET /expos [36m304[0m 24.389 ms - -[0m
+[0mGET /activities/month [36m304[0m 14.098 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 14.313 ms - -[0m
+[0mGET /expos [36m304[0m 19.428 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 20.827 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 17.834 ms - -[0m
+[0mGET /expos [36m304[0m 8.771 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 13.029 ms - -[0m
+[0mGET /activities/month [36m304[0m 13.904 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 14.936 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 14.672 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.306 ms - -[0m
+[0mGET /activities/month [36m304[0m 15.881 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 16.889 ms - -[0m
+[0mGET /expos [32m200[0m 24.043 ms - 6749[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 19.388 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 14.390 ms - -[0m
+[0mGET /activities/month [36m304[0m 15.801 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 17.107 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 20.552 ms - -[0m
+[0mGET /expos [36m304[0m 25.134 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 15.480 ms - -[0m
+[0mGET /expos [36m304[0m 19.615 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 20.809 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 23.541 ms - -[0m
+[0mGET /activities/month [36m304[0m 18.318 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.928 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 14.014 ms - -[0m
+[0mGET /activities/month [36m304[0m 16.254 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 19.426 ms - -[0m
+[0mGET /expos [36m304[0m 19.399 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 14.942 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 15.982 ms - -[0m
+[0mGET /activities/month [36m304[0m 17.170 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.392 ms - -[0m
+[0mGET /expos [36m304[0m 23.101 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.035 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 18.831 ms - -[0m
+[0mGET /activities/month [36m304[0m 20.071 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.192 ms - -[0m
+[0mGET /expos [36m304[0m 26.927 ms - -[0m
+[0mGET /activities/month [32m200[0m 16.309 ms - 869[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 17.460 ms - 26[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 18.765 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 20.223 ms - 25[0m
+[0mGET /expos [36m304[0m 24.351 ms - -[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.990 ms - 2013446[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 3.700 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 3.408 ms - 1550114[0m
+[0mGET /expos [36m304[0m 15.550 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 21.198 ms - -[0m
+[0mGET /activities/month [36m304[0m 20.092 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 19.529 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 20.637 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 14.714 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 16.165 ms - -[0m
+[0mGET /activities/month [36m304[0m 17.103 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 18.256 ms - -[0m
+[0mGET /expos [32m200[0m 25.043 ms - 6749[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 35.180 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 32.636 ms - 26[0m
+[0mGET /activities/month [32m200[0m 33.558 ms - 2[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 34.856 ms - 25[0m
+[0mGET /expos [32m200[0m 42.320 ms - 6749[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 3.009 ms - 899000[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 19.960 ms - 2013446[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 35.678 ms - 1550114[0m
+[0mGET /expos [32m200[0m 9.314 ms - 6749[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 16.070 ms - -[0m
+[0mGET /activities/month [32m200[0m 16.844 ms - 2[0m
+[0mGET /expos [32m200[0m 20.979 ms - 6749[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 24.259 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 19.566 ms - -[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.409 ms - 2013446[0m
+[0mGET /expos [32m200[0m 20.044 ms - 6749[0m
+[0mGET /activities/month [32m200[0m 25.163 ms - 2[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 26.548 ms - 25[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 23.980 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 25.622 ms - 26[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.641 ms - 2013446[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 20.151 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.872 ms - -[0m
+[0mGET /expos [36m304[0m 24.523 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 25.931 ms - -[0m
+[0mGET /activities/month [36m304[0m 26.749 ms - -[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 3.921 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 3.717 ms - 1550114[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.307 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 24.258 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 22.560 ms - -[0m
+[0mGET /activities/month [36m304[0m 23.015 ms - -[0m
+[0mGET /expos [36m304[0m 30.984 ms - -[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 3.641 ms - 101[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.065 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 251.283 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.044 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 7.141 ms - 16[0m
+[0mGET /activities/month [32m200[0m 6.475 ms - 2[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 10.297 ms - 26[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 18.035 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 13.882 ms - 25[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.040 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.192 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 8.197 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 14.946 ms - -[0m
+[0mGET /activities/month [36m304[0m 13.220 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 10.466 ms - -[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.661 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.233 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 8.219 ms - 51[0m
+[0mPOST /users/login/admin [32m200[0m 243.944 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.040 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 5.732 ms - 16[0m
+[0mGET /activities/month [32m200[0m 5.350 ms - 2[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 7.263 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 9.191 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 7.280 ms - 26[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.209 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.462 ms - -[0m
+[0mGET /activities/month [36m304[0m 4.132 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 5.310 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.921 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 9.032 ms - -[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.374 ms - 101[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.299 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 232.998 ms - 49[0m
+[0mPOST /users/login/admin [32m200[0m 240.633 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.051 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 5.762 ms - 16[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 5.917 ms - 26[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 11.968 ms - 25[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 10.487 ms - 91[0m
+[0mGET /activities/month [32m200[0m 17.526 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.495 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.514 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 4.651 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.445 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.725 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 8.929 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.293 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 6.505 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 9.026 ms - -[0m
+[0mGET /activities/month [36m304[0m 9.419 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 11.114 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.408 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 6.901 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.288 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.150 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.839 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.853 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.303 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 13.412 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 5.937 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 2.254 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.251 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 2.375 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.027 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 6.264 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.449 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.406 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.732 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 7.516 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 7.861 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.164 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 8.229 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.204 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.931 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.529 ms - -[0m
+[0mGET /activities/month [36m304[0m 10.595 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 13.073 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 10.834 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.197 ms - -[0m
+[0mGET /activities/month [36m304[0m 10.954 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.032 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 18.025 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 13.529 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 9.997 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.211 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 6.631 ms - -[0m
+[0mGET /activities/month [36m304[0m 8.984 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 14.675 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 17.425 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 20.805 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 2.941 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.702 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.946 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 12.266 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.583 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 18.264 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 25.304 ms - -[0m
+[0mGET /activities/month [36m304[0m 16.220 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 4.732 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.298 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.393 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.513 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.608 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 10.167 ms - -[0m
+[0mGET /activities/month [36m304[0m 14.355 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 8.663 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 2.866 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.247 ms - -[0m
+[0mGET / [33m404[0m 2.772 ms - 139[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 8.194 ms - 25[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 19.755 ms - 35[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.857 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 10.284 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.358 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 15.754 ms - 25[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 16.058 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 22.221 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 3.308 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.649 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.389 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.508 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 11.029 ms - -[0m
+[0mGET /activities/month [36m304[0m 14.530 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.036 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 14.523 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 1.269 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 3.341 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.120 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.816 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.715 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 6.298 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 6.558 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 12.584 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 6.040 ms - 35[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 4.931 ms - 25[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.261 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 9.339 ms - -[0m
+[0mGET /activities/month [36m304[0m 8.241 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.274 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 9.305 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 5.051 ms - 35[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.278 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.132 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.063 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.812 ms - -[0m
+[0mGET /activities/month [36m304[0m 13.575 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.389 ms - -[0m
+[0mGET /activities/month [36m304[0m 5.185 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 11.688 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 9.682 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.322 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 19.218 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.334 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.048 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 13.452 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 14.424 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 19.801 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 13.241 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.479 ms - -[0m
+[0mGET /activities/month [36m304[0m 10.981 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 11.180 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 13.360 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 13.405 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 9.425 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.227 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 3.895 ms - -[0m
+[0mGET /activities/month [36m304[0m 3.018 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 3.134 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.888 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 4.601 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [33m400[0m 2.853 ms - 907[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.159 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.195 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 6.740 ms - -[0m
+[0mGET /activities/month [36m304[0m 7.047 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 7.679 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 7.717 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.302 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 4.889 ms - 35[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 5.007 ms - 25[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.526 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.011 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 11.402 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.820 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 9.643 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.896 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.094 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 14.468 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 14.239 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 12.930 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceDiscount [32m200[0m 5.362 ms - 36[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 4.755 ms - 26[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.949 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 9.116 ms - -[0m
+[0mGET /activities/month [36m304[0m 8.619 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 7.983 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceDiscount [32m200[0m 13.621 ms - 36[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.350 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 3.823 ms - -[0m
+[0mGET /activities/month [36m304[0m 3.115 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 3.278 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceDiscount [32m200[0m 5.558 ms - 36[0m
+[0mPUT /priceandmenu/ticketPriceDiscount [32m200[0m 4.953 ms - 36[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.008 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 13.389 ms - -[0m
+[0mGET /activities/month [36m304[0m 12.205 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 6.864 ms - -[0m
+[0mGET /priceandmenu/ [32m200[0m 6.629 ms - 261[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 5.403 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 3.920 ms - -[0m
+[0mGET /activities/month [36m304[0m 2.979 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 10.035 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 5.069 ms - -[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 9.434 ms - 35[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.392 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 8.086 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.494 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 11.316 ms - 25[0m
+[0mGET /activities/month [36m304[0m 3.740 ms - -[0m
+[0mGET /expos [32m200[0m 17.328 ms - 6749[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 18.830 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 20.198 ms - 26[0m
+[0mGET /activities/month [32m200[0m 22.890 ms - 2[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 18.615 ms - 25[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.681 ms - 2013446[0m
+[0mGET /expos [32m200[0m 24.786 ms - 6749[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 8.314 ms - 899000[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 7.186 ms - 2013446[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 15.531 ms - 1550114[0m
+[0mGET /activities/month [32m200[0m 5.387 ms - 2[0m
+[0mGET /expos [36m304[0m 19.276 ms - -[0m
+[0mGET /activities/month [32m200[0m 20.029 ms - 2[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 21.852 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 26.599 ms - 26[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 22.389 ms - 25[0m
+[0mGET /uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg [32m200[0m 3.845 ms - 75891[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 2.301 ms - 899000[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 4.267 ms - 2013446[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 2.103 ms - 1550114[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 5.045 ms - 1550114[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 4.979 ms - 1550114[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 6.379 ms - 1550114[0m
+[0mGET /uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png [32m200[0m 9.586 ms - 113503[0m
+[0mGET /uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png [32m200[0m 8.606 ms - 1693[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 17.767 ms - 91[0m
+[0mGET /expos [32m200[0m 22.864 ms - 6749[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 24.662 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 27.306 ms - 26[0m
+[0mGET /activities/month [32m200[0m 25.209 ms - 2[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 3.512 ms - 2013446[0m
+[0mGET /.env [33m404[0m 3.408 ms - 143[0m
+[0mGET /.env [33m404[0m 1.501 ms - 143[0m
+[0mGET /search?folderIds=0 [33m404[0m 1.103 ms - 145[0m
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+[0mGET /geojson?url=file:///etc/hosts [33m404[0m 16.668 ms - 146[0m
+[0mGET /.env [33m404[0m 3.180 ms - 143[0m
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+server on port  10021
+server on port  10021
+[0mGET /users/admin/validateToken/ [33m401[0m 24.900 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 3.004 ms - 64[0m
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+[0mGET /expos [0m-[0m - ms - -[0m
+[0mGET /expos [0m-[0m - ms - -[0m
+server on port  10021
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\node\api-marco\node_modules\mongoose\lib\connection.js:796:32)
+    at C:\node\api-marco\node_modules\mongoose\lib\index.js:330:10
+    at C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\node\api-marco\node_modules\mongoose\lib\index.js:1151:10)
+    at Mongoose.connect (C:\node\api-marco\node_modules\mongoose\lib\index.js:329:20)
+    at Object.<anonymous> (C:\node\api-marco\src\database.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  }
+}
+server on port  10021
+db is connected
+server on port  10021
+db is connected
+server on port  10021
+db is connected
+server on port  10021
+db is connected
+[0mGET /search?folderIds=0 [33m404[0m 16.249 ms - 145[0m
+[0mGET /geojson?url=file:///etc/hosts [33m404[0m 4.443 ms - 146[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 126.990 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 136.983 ms - 25[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 144.565 ms - 26[0m
+[0mGET /expos [32m200[0m 173.726 ms - 6749[0m
+[0mGET /activities/month [32m200[0m 268.112 ms - 2[0m
+[0mGET /uploads/5f6155cd-708a-4171-9d25-1b12a0df625b.png [32m200[0m 39.721 ms - 2013446[0m
+server on port  10021
+db is connected
+server on port  10021
+db is connected
+[0mGET /users/admin/validateToken/ [33m401[0m 31.204 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 5.459 ms - 64[0m
+[0mGET /expos [32m200[0m 103.990 ms - 6749[0m
+server on port  10021
+db is connected
+server on port  10021
+db is connected
+[0mGET /users/admin/validateToken/ [33m401[0m 47.656 ms - 101[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 4.989 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.753 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.817 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 598.202 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 3.704 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 64.761 ms - 16[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 49.989 ms - 91[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 68.582 ms - 26[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 64.206 ms - 25[0m
+[0mGET /activities/month [32m200[0m 248.916 ms - 2[0m
+[0mGET /expos [32m200[0m 49.520 ms - 6749[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.568 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 8.048 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.583 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [32m200[0m 26.447 ms - 4194[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 38.290 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 38.782 ms - 1550114[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.611 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 9.534 ms - 2[0m
+[0mPOST /activities/month/ [32m200[0m 7.158 ms - 2[0m
+[0mPOST /activities/month/ [32m200[0m 7.604 ms - 2[0m
+[0mPOST /activities/month/ [32m200[0m 7.387 ms - 2[0m
+[0mPOST /activities/month/ [32m200[0m 17.508 ms - 869[0m
+[0mGET /uploads/b2d1f571-878d-4d57-9881-ec2e40e3368b.png [32m200[0m 29.846 ms - 584606[0m
+[0mPOST /activities/month/ [32m200[0m 7.399 ms - 2235[0m
+[0mGET /uploads/a2ac2c80-a41c-4da0-a7f8-d203fe3e8091.png [32m200[0m 74.221 ms - 1458685[0m
+[0mGET /uploads/54f5e561-2053-47a4-ace9-e17e4022cfd3.png [32m200[0m 82.530 ms - 553367[0m
+[0mPOST /activities/month/ [32m200[0m 9.862 ms - 2932[0m
+[0mGET /uploads/ca157c30-8958-49b1-a70a-2ace04a432e1.png [32m200[0m 32.178 ms - 227463[0m
+[0mGET /uploads/e5ee279d-1c98-405d-9e8c-1dc2ee2435a9.png [32m200[0m 37.018 ms - 1070289[0m
+[0mGET /uploads/4cd6cdaa-83e1-4063-bf0d-40fbf7285854.png [32m200[0m 27.355 ms - 2005700[0m
+[0mPOST /activities/month/ [32m200[0m 7.317 ms - 2[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.033 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.751 ms - 64[0m
+[0mPOST /users/login/admin [32m200[0m 272.832 ms - 498[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.256 ms - 169[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 7.380 ms - 16[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 14.183 ms - 26[0m
+[0mGET /activities/month [32m200[0m 18.203 ms - 2[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 19.950 ms - 25[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 18.678 ms - 91[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 44.250 ms - 35[0m
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 6.001 ms - 35[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 3.549 ms - 101[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.714 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.994 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.762 ms - 64[0m
+[0mGET / [33m404[0m 4.227 ms - 139[0m
+[0mGET /expos [32m200[0m 15.435 ms - 6749[0m
+[0mGET /eventos [33m404[0m 2.024 ms - 146[0m
+[0mGET /evnts [33m404[0m 1.835 ms - 144[0m
+[0mGET /events [33m404[0m 1.960 ms - 145[0m
+[0mGET /activities [32m200[0m 15.421 ms - 6034[0m
+[0mGET /activities [36m304[0m 10.560 ms - -[0m
+[0mGET /activities [36m304[0m 12.049 ms - -[0m
+server on port  10021
+db is connected
+[0mGET /users/admin/validateToken/ [36m304[0m 29.058 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 169.282 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 297.606 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 302.901 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 308.418 ms - -[0m
+[0mGET /activities/month [36m304[0m 389.026 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.077 ms - -[0m
+[0mGET /activities/month [36m304[0m 5.068 ms - -[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 6.363 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 18.534 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 10.819 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.959 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 1.790 ms - 0[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.845 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.127 ms - 64[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.700 ms - 0[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.407 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.522 ms - 64[0m
+[0mOPTIONS /users/login/admin [32m204[0m 0.444 ms - 0[0m
+[0mPOST /users/login/admin [32m200[0m 452.432 ms - 498[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.518 ms - 0[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.493 ms - 169[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.517 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.515 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.733 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.419 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 13.083 ms - 25[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 8.713 ms - 16[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 13.786 ms - 26[0m
+[0mGET /activities/month [32m200[0m 14.868 ms - 2[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 16.837 ms - 91[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.445 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.747 ms - 0[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.461 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.369 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.305 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.422 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.428 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.273 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 5.507 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.240 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 4.437 ms - -[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.218 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 1.174 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.248 ms - 0[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 9.147 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.187 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 13.725 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 10.651 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.387 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 4.422 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.330 ms - 0[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.381 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.362 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.467 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.280 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 5.461 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.420 ms - -[0m
+[0mGET /activities/month [36m304[0m 9.037 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 10.448 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 10.185 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.292 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.932 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.266 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.255 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.242 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.298 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.845 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 5.282 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 5.860 ms - -[0m
+[0mGET /activities/month [36m304[0m 6.355 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 4.276 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.366 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.811 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.286 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.561 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.410 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.814 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.347 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 9.512 ms - -[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.333 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.358 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.317 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 15.279 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 18.947 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.614 ms - -[0m
+[0mGET /activities/month [36m304[0m 15.708 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.378 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.144 ms - -[0m
+[0mGET /guides/ [32m200[0m 6.170 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.263 ms - -[0m
+[0mGET /reservations/ [32m200[0m 23.283 ms - 2[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.368 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.032 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.376 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.204 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.022 ms - -[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [32m200[0m 57.569 ms - 4194[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 45.152 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 45.374 ms - 1550114[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.085 ms - -[0m
+[0mPOST /activities/month/ [32m200[0m 9.250 ms - 2[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.353 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.112 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.372 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.338 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.525 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.322 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.687 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 6.448 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 4.481 ms - -[0m
+[0mGET /activities/month [36m304[0m 18.496 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 7.818 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.164 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.335 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.256 ms - 2[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.378 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.968 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.334 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.539 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.699 ms - -[0m
+[0mOPTIONS /activities/month [32m204[0m 0.553 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.324 ms - 0[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 16.234 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 14.906 ms - -[0m
+[0mGET /activities/month [36m304[0m 15.605 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 15.248 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.367 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.116 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.412 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.322 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.322 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.313 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 10.545 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 7.578 ms - -[0m
+[0mGET /activities/month [36m304[0m 9.032 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 10.507 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 9.254 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.386 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.045 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.337 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.338 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.357 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.344 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.344 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 8.932 ms - -[0m
+[0mGET /activities/month [36m304[0m 11.882 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.105 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.502 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.369 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 1.951 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.329 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.058 ms - 2[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 3.438 ms - -[0m
+[0mOPTIONS /activities/ [32m204[0m 0.357 ms - 0[0m
+[Object: null prototype] {
+  name: 'Prueba',
+  author: 's',
+  startDate: '2022-07-14',
+  endDate: '2022-07-16',
+  description: 's',
+  hour: '3',
+  location: 's',
+  organizer: 'Ingrid',
+  paidActivity: 'false',
+  urlTickets: 'undefined',
+  image: 'https://admin.marco.org.mx/api/uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png'
+}
+[0mPOST /activities/ [32m200[0m 420.134 ms - 426[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.342 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.207 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.343 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 19.154 ms - 428[0m
+[0mGET /uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png [32m200[0m 2.194 ms - 822367[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.636 ms - -[0m
+[0mOPTIONS /activities/month [32m204[0m 0.448 ms - 0[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.440 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.466 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.314 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 7.565 ms - -[0m
+[0mGET /activities/month [32m200[0m 11.010 ms - 428[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 12.343 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 15.838 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 10.988 ms - -[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.426 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.145 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.425 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.455 ms - 428[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.190 ms - -[0m
+{
+  _id: new ObjectId("62d0d122533d42732192f1dc"),
+  name: 'Prueba',
+  author: 's',
+  startDate: 2022-07-14T00:00:00.000Z,
+  endDate: 2022-07-16T00:00:00.000Z,
+  description: 's',
+  image: 'https://admin.marco.org.mx/api/uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png',
+  hour: '3',
+  location: 's',
+  organizer: 'Ingrid',
+  paidActivity: false,
+  urlTickets: 'undefined',
+  createdAt: 2022-07-15T02:29:54.600Z,
+  updatedAt: 2022-07-15T02:29:54.600Z,
+  __v: 0
+}
+[0mGET /activities/62d0d122533d42732192f1dc [32m200[0m 9.682 ms - 426[0m
+[0mOPTIONS /activities/62d0d122533d42732192f1dc [32m204[0m 0.366 ms - 0[0m
+[0mDELETE /activities/62d0d122533d42732192f1dc [33m401[0m 1.236 ms - 60[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.343 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.422 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.446 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.771 ms - 428[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.490 ms - 0[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.467 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 8.024 ms - 64[0m
+[0mOPTIONS /users/login/admin [32m204[0m 0.333 ms - 0[0m
+[0mPOST /users/login/admin [32m200[0m 240.223 ms - 498[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.368 ms - 0[0m
+[0mGET /users/admin/validateToken/ [32m200[0m 2.436 ms - 169[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.371 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [32m200[0m 6.571 ms - 25[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.423 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.307 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.320 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceDiscount [32m200[0m 14.161 ms - 26[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [32m200[0m 17.972 ms - 16[0m
+[0mGET /priceandmenu/urlMenu [32m200[0m 17.843 ms - 91[0m
+[0mGET /activities/month [32m200[0m 19.218 ms - 428[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.441 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.340 ms - 0[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.385 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 7.661 ms - 428[0m
+[0mGET /uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png [32m200[0m 3.742 ms - 822367[0m
+[0mPOST /activities/month/ [32m200[0m 5.890 ms - 2[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.380 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.821 ms - 428[0m
+[0mPOST /activities/month/ [32m200[0m 5.054 ms - 2[0m
+[0mPOST /activities/month/ [32m200[0m 5.549 ms - 428[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.371 ms - 0[0m
+[0mGET /collaborators/ [32m200[0m 4.940 ms - 2[0m
+[0mGET /guides/ [32m200[0m 4.642 ms - 2[0m
+[0mGET /reservations/ [32m200[0m 5.990 ms - 2[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.443 ms - 0[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.346 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 6.012 ms - 428[0m
+[
+  {
+    _id: new ObjectId("61f1fd542b950e198196df56"),
+    name: 'test prueba 2',
+    author: 'test',
+    startDate: 'test',
+    endDate: 'test',
+    description: 'test',
+    virtualTourURL: 'test',
+    state: 'current',
+    authorCapsuleURL: 'test',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg',
+      'https://admin.marco.org.mx/api/uploads/d269a3e6-66b9-41ff-951f-231c203845fc.jpg',
+      'https://admin.marco.org.mx/api/uploads/e1bf9742-5498-44f4-8f96-185896a8d3e9.jpg',
+      'https://admin.marco.org.mx/api/uploads/f38c0903-7dae-4cf9-8375-7eb6a01f45be.jpg',
+      'https://admin.marco.org.mx/api/uploads/2831952a-62cd-4eb8-bc10-7609ba236d60.jpg',
+      'https://admin.marco.org.mx/api/uploads/6a1f8f83-d558-430a-98fe-885984560226.jpg',
+      'https://admin.marco.org.mx/api/uploads/c241bfde-0551-4e21-8014-122d438e0385.jpg',
+      'https://admin.marco.org.mx/api/uploads/0776f51c-5257-4674-86ee-54701f54aa07.jpg',
+      'https://admin.marco.org.mx/api/uploads/64c53cb4-be58-474e-be26-b6dc20ef9c01.jpg',
+      'https://admin.marco.org.mx/api/uploads/0c1f2964-766e-4cc1-9eb2-6f53c5b44696.jpg',
+      'https://admin.marco.org.mx/api/uploads/b8a99867-7afb-42d7-8b2e-faa213ee1826.jpg',
+      'https://admin.marco.org.mx/api/uploads/411f2ffc-600b-4c0a-992c-87be617947e9.jpg'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/e78f1656-bdcc-4714-80df-a3bb386f391b.mp3',
+    curatorship: 'test',
+    museography: 'test',
+    location: 'test',
+    technique: 'test',
+    totalPieces: 'test',
+    sponsors: [],
+    createdAt: 2022-01-27T02:03:00.865Z,
+    updatedAt: 2022-02-18T18:47:44.064Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("61f34fb846610d4d49248675"),
+    name: 'Miguel Calderón. Materia Estética Disponible',
+    author: 'Miguel Calderón',
+    startDate: "Octubre '21",
+    endDate: "Abril '22",
+    description: 'El Museo de Arte Contemporáneo de Monterrey presenta la exposición Materia estética disponible, la primera revisión curatorial de la práctica artística de Miguel Calderón (Ciudad de México, 1971) correspondiente a tres décadas de trabajo. Calderón es una de las figuras clave en el desarrollo de la escena del arte emergente en nuestro país desde la década de los noventa y pertenece a la primera generación de artistas conectados a una cultura urbana global.\r\n' +
+      '\r\n' +
+      'Materia estética disponible reúne instalaciones, películas, esculturas, dibujos y fotografías, y se presenta a través de núcleos temáticos que entretejen una lectura anacrónica de la obra del artista, que aborda temas como el estudio de la naturaleza humana, la transgresión y el análisis de las convenciones sociales, y la experimentación que cuestiona los márgenes entre la realidad y la ficción; la experiencia estética autobiográfica del artista donde vierte las reflexiones que extrae de las paradojas que le acechan. Su obra, en ocasiones cruda o desenfadada, explora territorios profundos sobre la naturaleza humana, social y personal.',
+    virtualTourURL: 'https://www.museomarco.360s.mx/',
+    state: 'current',
+    authorCapsuleURL: 'https://www.youtube.com/watch?v=Po3zQ-5yqag',
+    images: [
+      'https://admin.marco.org.mx/api/uploads/08340baf-7e7b-453c-9bcf-769642952085.png',
+      'https://admin.marco.org.mx/api/uploads/2a35bc38-9561-472a-b395-6cb44ffab366.png',
+      'https://admin.marco.org.mx/api/uploads/12d54b5d-1291-42c9-885a-8d8f039816a4.png',
+      'https://admin.marco.org.mx/api/uploads/78f7308f-76e5-4c53-ba27-619123269b1d.png',
+      'https://admin.marco.org.mx/api/uploads/a15c94a4-dd6b-4819-8635-804f1ec312b2.png',
+      'https://admin.marco.org.mx/api/uploads/d027ef0c-d466-4953-a112-f2d1e99aa2a1.png'
+    ],
+    audio: 'https://admin.marco.org.mx/api/uploads/78dc2abb-57bb-4114-bb7f-cbb7cd28296d.mp3',
+    curatorship: 'Mariana Mañon y Taiyana Pimentel',
+    museography: 'Museo de Arte Contemporáneo de Monterrey',
+    location: 'Salas 6 a 11 | Planta alta.',
+    technique: 'Pintura, video, instalación, sonido y performance.',
+    totalPieces: '53',
+    sponsors: [
+      'https://admin.marco.org.mx/api/uploads/58f50be7-b6a0-47dd-a0c8-1c4633ba2cb5.png',
+      'https://admin.marco.org.mx/api/uploads/b9bcf259-65cd-4dcd-a1ca-6d331781883b.png',
+      'https://admin.marco.org.mx/api/uploads/dfa1e71b-2818-44a3-88f7-1f9fe57b9755.png',
+      'https://admin.marco.org.mx/api/uploads/6545b6d1-c5d0-4be1-bda7-f12a7040deab.png'
+    ],
+    createdAt: 2022-01-28T02:06:48.545Z,
+    updatedAt: 2022-02-18T17:48:53.800Z,
+    __v: 0
+  }
+]
+[0mGET /expos/current [32m200[0m 13.450 ms - 4194[0m
+[0mGET /uploads/1e191192-65e2-4141-ad56-db3f54b42698.jpg [32m200[0m 3.587 ms - 899000[0m
+[0mGET /uploads/08340baf-7e7b-453c-9bcf-769642952085.png [32m200[0m 8.479 ms - 1550114[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.343 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.358 ms - 0[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.345 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.318 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.453 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 1.829 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.421 ms - 0[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.364 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.622 ms - -[0m
+[0mOPTIONS /activities/month/ [32m204[0m 0.387 ms - 0[0m
+[0mPOST /activities/month/ [32m200[0m 7.672 ms - 428[0m
+[0mGET /uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png [36m304[0m 2.751 ms - -[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.158 ms - -[0m
+{
+  _id: new ObjectId("62d0d122533d42732192f1dc"),
+  name: 'Prueba',
+  author: 's',
+  startDate: 2022-07-14T00:00:00.000Z,
+  endDate: 2022-07-16T00:00:00.000Z,
+  description: 's',
+  image: 'https://admin.marco.org.mx/api/uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png',
+  hour: '3',
+  location: 's',
+  organizer: 'Ingrid',
+  paidActivity: false,
+  urlTickets: 'undefined',
+  createdAt: 2022-07-15T02:29:54.600Z,
+  updatedAt: 2022-07-15T02:29:54.600Z,
+  __v: 0
+}
+[0mGET /activities/62d0d122533d42732192f1dc [32m200[0m 10.840 ms - 426[0m
+[0mOPTIONS /users/admin/validateToken/ [32m204[0m 0.392 ms - 0[0m
+[0mGET /users/admin/validateToken/ [36m304[0m 2.202 ms - -[0m
+[0mOPTIONS /users/name/61e06674d218512d92fedb1f [32m204[0m 0.910 ms - 0[0m
+[0mOPTIONS /priceandmenu/urlMenu [32m204[0m 0.408 ms - 0[0m
+[0mOPTIONS /activities/month [32m204[0m 0.331 ms - 0[0m
+[0mOPTIONS /priceandmenu/ticketPriceDiscount [32m204[0m 0.312 ms - 0[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 9.568 ms - -[0m
+[0mGET /users/name/61e06674d218512d92fedb1f [36m304[0m 9.296 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 7.148 ms - -[0m
+[0mGET /activities/month [36m304[0m 9.379 ms - -[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 8.752 ms - -[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 2.113 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.747 ms - 64[0m
+[0mGET /users/admin/validateToken/ [33m401[0m 1.991 ms - 64[0m
+[0mGET /priceandmenu/ticketPriceDiscount [36m304[0m 12.447 ms - -[0m
+[0mGET /expos [36m304[0m 18.905 ms - -[0m
+[0mGET /activities/month [32m200[0m 20.635 ms - 428[0m
+[0mGET /priceandmenu/ticketPriceGeneral [36m304[0m 22.002 ms - -[0m
+[0mGET /priceandmenu/urlMenu [36m304[0m 23.438 ms - -[0m
+[0mGET /uploads/6cbb8f7f-40c0-4348-8e54-73353ef8076e.png [32m200[0m 4.440 ms - 822367[0m
+{ ticketPriceGeneral: 100, newPrice: 60 }
+null
+[0mPUT /priceandmenu/ticketPriceGeneral [32m200[0m 32.700 ms - 35[0m
