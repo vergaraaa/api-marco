@@ -41,29 +41,11 @@ activitiesCtrl.getMonthActivities = async(req, res) => {
 }
 
 activitiesCtrl.getThisMonthActivities = async(req, res) => {
-    const activities = await Activity
-        .aggregate([{
-            $match: {
-                $expr: {
-                    $and: [{
-                            $eq: [
-                                { $month: "$startDate" },
-                                { $month: new Date() },
-
-                            ]
-                        },
-                        {
-                            $eq: [
-                                { $year: "$startDate" },
-                                { $year: new Date() }
-                            ]
-                        }
-                    ]
-                }
-            }
-        }])
-        .sort({ startDate: 'asc' });
-    res.json(activities);
+    var today = new Date();
+    today = new Date(today.getFullYear(), today.getMonth());
+    var twoMonths = new Date(today.getFullYear(), today.getMonth() + 2);
+    const act = await Activity.find({ startDate: { $gte: today, $lte: twoMonths } }).sort({ startDate: 'asc' });
+    res.json(act);
 }
 
 activitiesCtrl.getNextMonthActivities = async(req, res) => {
@@ -85,7 +67,7 @@ activitiesCtrl.getNextMonthActivities = async(req, res) => {
                                 { $year: "$startDate" },
                                 { $year: nextMonth }
                             ]
-                        }
+                        },
                     ]
                 }
             }

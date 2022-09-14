@@ -157,3 +157,123 @@ Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2022-07-20 16:12:59 - Finished apimarcoservicio.exe
 2022-07-20 17:40:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2022-07-20 17:40:33 - Started 8032
+2022-07-21 13:45:13 - Stopping apimarcoservicio.exe
+2022-07-21 13:45:13 - ProcessKill 8032
+2022-07-21 13:45:13 - Found child process: 6816 Name: conhost.exe
+2022-07-21 13:45:13 - Found child process: 8068 Name: node.exe
+2022-07-21 13:45:13 - Stopping process 6816
+2022-07-21 13:45:13 - Send SIGINT 6816
+2022-07-21 13:45:13 - SIGINT to 6816 failed - Killing as fallback
+2022-07-21 13:45:13 - Stopping process 8068
+2022-07-21 13:45:13 - Send SIGINT 8068
+2022-07-21 13:45:13 - SIGINT to 8068 failed - Killing as fallback
+2022-07-21 13:45:13 - Stopping process 8032
+2022-07-21 13:45:13 - Send SIGINT 8032
+2022-07-21 13:45:13 - SIGINT to 8032 failed - Killing as fallback
+2022-07-21 13:45:13 - Finished apimarcoservicio.exe
+2022-07-21 14:50:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-21 14:50:51 - Started 7720
+2022-07-21 14:56:37 - Stopping apimarcoservicio.exe
+2022-07-21 14:56:37 - ProcessKill 7720
+2022-07-21 14:56:38 - Found child process: 4600 Name: conhost.exe
+2022-07-21 14:56:38 - Found child process: 7000 Name: node.exe
+2022-07-21 14:56:38 - Stopping process 4600
+2022-07-21 14:56:38 - Send SIGINT 4600
+2022-07-21 14:56:38 - SIGINT to 4600 failed - Killing as fallback
+2022-07-21 14:56:38 - Stopping process 7000
+2022-07-21 14:56:38 - Send SIGINT 7000
+2022-07-21 14:56:38 - SIGINT to 7000 failed - Killing as fallback
+2022-07-21 14:56:38 - Stopping process 7720
+2022-07-21 14:56:38 - Send SIGINT 7720
+2022-07-21 14:56:38 - SIGINT to 7720 failed - Killing as fallback
+2022-07-21 14:56:38 - Finished apimarcoservicio.exe
+2022-07-21 14:57:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-21 14:57:05 - Started 8068
+2022-07-21 16:57:25 - Stopping apimarcoservicio.exe
+2022-07-21 16:57:25 - ProcessKill 8068
+2022-07-21 16:57:25 - Found child process: 7936 Name: conhost.exe
+2022-07-21 16:57:26 - Found child process: 3428 Name: node.exe
+2022-07-21 16:57:26 - Stopping process 7936
+2022-07-21 16:57:26 - Send SIGINT 7936
+2022-07-21 16:57:26 - SIGINT to 7936 failed - Killing as fallback
+2022-07-21 16:57:26 - Stopping process 3428
+2022-07-21 16:57:26 - Send SIGINT 3428
+2022-07-21 16:57:26 - SIGINT to 3428 failed - Killing as fallback
+2022-07-21 16:57:26 - Stopping process 8068
+2022-07-21 16:57:26 - Send SIGINT 8068
+2022-07-21 16:57:26 - SIGINT to 8068 failed - Killing as fallback
+2022-07-21 16:57:26 - Finished apimarcoservicio.exe
+2022-07-21 16:59:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-21 16:59:54 - Started 2288
+2022-07-21 17:06:57 - Stopping apimarcoservicio.exe
+2022-07-21 17:06:57 - ProcessKill 2288
+2022-07-21 17:06:57 - Found child process: 2684 Name: conhost.exe
+2022-07-21 17:06:57 - Found child process: 5056 Name: node.exe
+2022-07-21 17:06:57 - Stopping process 2684
+2022-07-21 17:06:57 - Send SIGINT 2684
+2022-07-21 17:06:57 - SIGINT to 2684 failed - Killing as fallback
+2022-07-21 17:06:57 - Stopping process 5056
+2022-07-21 17:06:57 - Send SIGINT 5056
+2022-07-21 17:06:57 - SIGINT to 5056 failed - Killing as fallback
+2022-07-21 17:06:57 - Stopping process 2288
+2022-07-21 17:06:57 - Send SIGINT 2288
+2022-07-21 17:06:57 - SIGINT to 2288 failed - Killing as fallback
+2022-07-21 17:06:57 - Finished apimarcoservicio.exe
+2022-07-21 17:07:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-21 17:07:55 - Started 1620
+2022-08-11 10:41:45 - Stopping apimarcoservicio.exe
+2022-08-11 10:41:45 - ProcessKill 1620
+2022-08-11 10:41:45 - Shutdown exception
+Message:Invalid query 
+Stacktrace:   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementObjectCollection.ManagementObjectEnumerator.MoveNext()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-11 10:44:15 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-11 10:44:16 - Started 3452
+2022-08-11 17:53:23 - Stopping apimarcoservicio.exe
+2022-08-11 17:53:23 - ProcessKill 3452
+2022-08-11 17:53:23 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-11 17:54:42 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-11 17:54:42 - Started 3452
+2022-08-12 18:02:29 - Stopping apimarcoservicio.exe
+2022-08-12 18:02:29 - ProcessKill 3452
+2022-08-12 18:02:30 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-12 18:51:15 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\MOODLE\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\node\api-marco\src\index.js --log "api-marco-servicio wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-12 18:51:16 - Started 3456
+2022-09-14 17:34:48 - Stopping apimarcoservicio.exe
+2022-09-14 17:34:48 - ProcessKill 3456
+2022-09-14 17:34:48 - Found child process: 3480 Name: conhost.exe
+2022-09-14 17:34:48 - Found child process: 4080 Name: node.exe
+2022-09-14 17:34:48 - Stopping process 3480
+2022-09-14 17:34:48 - Send SIGINT 3480
+2022-09-14 17:34:48 - SIGINT to 3480 failed - Killing as fallback
+2022-09-14 17:34:48 - Stopping process 4080
+2022-09-14 17:34:48 - Send SIGINT 4080
+2022-09-14 17:34:48 - SIGINT to 4080 failed - Killing as fallback
+2022-09-14 17:34:48 - Stopping process 3456
+2022-09-14 17:34:48 - Send SIGINT 3456
+2022-09-14 17:34:48 - SIGINT to 3456 failed - Killing as fallback
+2022-09-14 17:34:48 - Finished apimarcoservicio.exe
